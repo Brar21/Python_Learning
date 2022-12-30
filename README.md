@@ -6,3 +6,4 @@
 1. go to website- ```www.python.org``` 
 2. click on dowloads select you OS accordingly.
 3. Download the latest version.
+4. Open download file and follow the steps
