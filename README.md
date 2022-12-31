@@ -35,6 +35,7 @@
 # World best code we gonna written
   for Javascript we use console.log("Hello World")   ==> print("Hello World") for Python Language
   - for "run" pyhton we need just click on Run button.
+  - External command for terminal ```python {file.name}``` you can use shortcut just write "pyhton" space you file names first letter -> "python h" then press tab it will auto-complete name and after getting name hit "Enter" button.
 
 # Install Python Extension
   1. Open visual studion code.
