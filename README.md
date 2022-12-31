@@ -26,4 +26,8 @@
   ***Python is programing language which help us to communicate with computer or laptop even with any type of opreating system.
   It is very simple and easy to understand  like reading a simple "English". Python pseudo code nature make python easy to learn for non-codder to just start learning coding and machine learning***
 
-# Key-Features of Python  
+# Key-Features of Python 
+  - Easy to understand = Fast Development
+  - Free and open source
+  - Work with every Opreating system.
+  - Enjoy workin with it.
