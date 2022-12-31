@@ -34,3 +34,11 @@
 
 # World best code we gonna written
   console.log("Hello World")  
+
+# Install Python Extension
+  1. Open visual studion code.
+  2. Click on "Extension" tab.
+  3. Search "Python" in search-bar.
+  4. Click on Install button.
+  5. Congratulation! You done it.
+  6. Final and last step select pyhton Interprater.
