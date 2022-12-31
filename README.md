@@ -61,3 +61,6 @@
   4. Click on Install button.
   5. Congratulation! You done it.
   6. Final and last step select pyhton Interprater.
+
+# Variables and Datatypes in Python
+  *Variable is name given to value for storing in your program or with Declare a varible name with value you can use that anywher in that particuler file*
