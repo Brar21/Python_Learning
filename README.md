@@ -64,3 +64,10 @@
 
 # Variables and Datatypes in Python
   *Variable is name given to value for storing in your program or with Declare a varible name with value you can use that anywher in that particuler file*
+
+  *Datatype in python- mostly used datatype are as following:-*
+  *Integerns*
+  *Floating point numbers*
+  *Strings*
+  *Boolean*
+  *None*
