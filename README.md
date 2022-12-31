@@ -26,6 +26,12 @@
   ***Python is programing language which help us to communicate with computer or laptop even with any type of opreating system.
   It is very simple and easy to understand  like reading a simple "English". Python pseudo code nature make python easy to learn for non-codder to just start learning coding and machine learning***
 
+# What is PIP?
+  ***Pip is the package maneger for pyhton like Node or npm in package manager for javascript/Node.js.you can use pip to install packages or a module on your system.***
+
+# what are Modules?
+  ***Module is a file with code written by somebody else which you can import byt installing that module in you program using pip***
+  
 # Key-Features of Python 
   - Easy to understand = Fast Development
   - Free and open source
