@@ -39,6 +39,10 @@
 # Simple example of Python working that is you can use pyhton as "Calculater". 
       ***REPl - Read Evaluate Print loop***
 
+# Comments?
+ *Basiclly developer use this for give instruction in code base. Comments will never show on Browser when we run file on web-browser.*
+ *Comment can be single line or Multiple line*
+
 # Key-Features of Python 
   - Easy to understand = Fast Development
   - Free and open source
