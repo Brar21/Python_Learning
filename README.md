@@ -31,7 +31,11 @@
 
 # what are Modules?
   ***Module is a file with code written by somebody else which you can import byt installing that module in you program using pip***
-  
+
+# Types of Modules?
+   *** Built-in => which you during installation of python in your system.***
+   *** External => which you have to install using "pip" in your system.***
+     
 # Key-Features of Python 
   - Easy to understand = Fast Development
   - Free and open source
