@@ -36,7 +36,8 @@
    *** Built-in => which you during installation of python in your system.***
    *** External => which you have to install using "pip" in your system.***
 
-# Simple example of Python working that is you can use pyhton as "Calculater".
+# Simple example of Python working that is you can use pyhton as "Calculater". 
+      ***REPl - Read Evaluate Print loop***
 
 # Key-Features of Python 
   - Easy to understand = Fast Development
