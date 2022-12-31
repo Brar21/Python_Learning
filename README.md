@@ -33,7 +33,8 @@
   - Enjoy workin with it.
 
 # World best code we gonna written
-  console.log("Hello World")  
+  for Javascript we use console.log("Hello World")   ==> print("Hello World") for Python Language
+  - for "run" pyhton we need just click on Run button.
 
 # Install Python Extension
   1. Open visual studion code.
