@@ -11,3 +11,8 @@ than you will see the type of particuler variable.
 print(a)
 print(b)
 print(d)
+
+#how you can print or find Class type of variables?
+print(type(a)) #type is in-built code for check type and for print type of variable
+print(type(b))
+print(type(d))
