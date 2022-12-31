@@ -14,3 +14,16 @@
 2. click on dowloads select you OS accordingly.
 3. Download the latest version.
 4. Open download file and follow the steps
+
+***Open window.powershell***
+   - ```python``` in powershell. then you will enter in python world.
+   - ```exit()```  write in powershell you will come out from python.
+   - for just check version of Python you installed just type ```python --version``` in powershell.
+   - ```pip``` for just create python environment like- install,uninstall Packages. etc.
+   - ```pip --version``` for check version and where our "pip" is installed.
+
+# What is pyhton?
+  ***Python is programing language which help us to communicate with computer or laptop even with any type of opreating system.
+  It is very simple and easy to understand  like reading a simple "English". Python pseudo code nature make python easy to learn for non-codder to just start learning coding and machine learning***
+
+# Key-Features of Python  
