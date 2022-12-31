@@ -81,4 +81,7 @@
     1. Arithmetic operators => "+,-,/,*" common examples.
     2. Assignment operators => "=,+=,-=" you will use in further steps.
     3. Comperison operators => "==,>,>=,<,<=,!=" for compare value and type also.
-    4. Logical operators => "and,or,not" check logic in functions
+    4. Logical operators => "and,or,not" check logic in functions.
+
+# type() functions and typecasting
+  - if you have number in string and you want to add number in that string, Just put variable name as parameter in ```int(varibele.name)``` then string number will be convert in number or integer. But it is valid on number or integers.    
