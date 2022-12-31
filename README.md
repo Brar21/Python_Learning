@@ -64,10 +64,21 @@
 
 # Variables and Datatypes in Python
   *Variable is name given to value for storing in your program or with Declare a varible name with value you can use that anywher in that particuler file*
+  *TO declare a variable name you have to follow set of Rules:*
+  1. variable name can contain alphabet,numbers,underscore.
+  2. variable name can never be start with number.
+  3. variable name can only start with Alphabet.
+  4. you can't give space inside variable name.
 
-  *Datatype in python- mostly used datatype are as following:-*
+  ***Datatype in python- mostly used datatype are as following:-***
   *Integerns*
   *Floating point numbers*
   *Strings*
   *Boolean*
   *None*
+
+  # Operators in Pyhton
+    1. Arithmetic operators => "+,-,/,*" common examples.
+    2. Assignment operators => "=,+=,-=" you will use in further steps.
+    3. Comperison operators => "==,>,>=,<,<=,!=" for compare value and type also.
+    4. Logical operators => "and,or,not" check logic in functions
