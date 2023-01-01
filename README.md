@@ -84,4 +84,18 @@
     4. Logical operators => "and,or,not" check logic in functions.
 
 # type() functions and typecasting
-  - if you have number in string and you want to add number in that string, Just put variable name as parameter in ```int(varibele.name)``` then string number will be convert in number or integer. But it is valid on number or integers.    
+  - if you have number in string and you want to add number in that string, Just put variable name as parameter in ```int(varibele.name)``` then string number will be convert in number or integer. But it is valid on number or integers.
+
+# String
+  *String is just a Datatype in Python*
+  *You can write with three ways*
+   1. Single quoted string -> course="Pyhton"
+   2. Double quoted string -> language="Hindi"
+   3. Triple quoted string -> easy='''Yes'''
+
+# String Slicing
+  - slice means chop into peaces "Simple words to make every single words as string you can use "Slicing" in pyhton.   
+
+  *what you need to know for use slicing?*
+  1. Index -> this is given by pyhton internaly to string chracters.
+  2. Length -> total words or chracters in string is Length of that string.
