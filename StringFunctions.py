@@ -35,3 +35,10 @@ myString="How many 'a' words in this string"
 print(myString.count("o"))  #2 is answer
 print(myString.count("w"))  #2 is answer
 print(myString.count("i"))  #3  is answer
+#you can count full world also
+
+#to Capital first letter of string you can use Capitalize function
+
+myCapital="varinder" # name will convert into capital letter by capital() function
+
+print(myCapital.capitalize())

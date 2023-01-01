@@ -122,3 +122,6 @@
   - To count how words are present in string equal to given letter(value).   
   *syntax to write count function*
      print(variable_name.count(value_for_count))
+  - To make first letter capital in string starting use Capital() function
+  *syntax to write Capital() function*
+     print(variable_name.capitalize()))
