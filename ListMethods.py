@@ -25,3 +25,9 @@ print(a) #10 added in the end of list you can see
 
 a.insert(9,0) #to add 0 at 9th index number you use insert
 print(a) #0 added at 9th index and 10 move to 10th index
+
+a.pop()#it will delete last item of index
+print(a)#10 id deleted from last
+
+a.pop(2)#if you provide index number to delete item then item on that indexnumber willbe deleted
+print(a)#like on index 2 item number-3 is deleted
