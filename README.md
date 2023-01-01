@@ -192,7 +192,7 @@
     *syntax for this function count()*
     - print(tuple.index(value_for_check))
 
- <button><a href="https://data-flair.training/blogs/python-tuple/"> Link for Method List</a></button>
+ <button><a href="https://data-flair.training/blogs/python-tuple/"> Link for Tupple More Information</a></button>
 
 
     
