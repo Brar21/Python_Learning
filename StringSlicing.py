@@ -35,3 +35,6 @@ print(name[:4]) #it will start from zero if you write like " :" empty space is w
 string="print last index of this string"
 
 print(string[-1]) #then -1 will automatically print last index "g"
+
+Name="varinder" #skip index number you just need to provide three arguments
+print(Name[0:7:3])
