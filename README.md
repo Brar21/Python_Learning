@@ -97,8 +97,8 @@
   - slice means chop into peaces "Simple words to make every single words as string you can use "Slicing" in pyhton.   
 
   *what you need to know for use slicing?*
-  1. Index -> this is given by pyhton internaly to string chracters.
-  2. Length -> total words or chracters in string is Length of that string.
+  1. Index -> this is given by pyhton internaly to string characters.
+  2. Length -> total words or characters in string is Length of that string.
   3. Example string="Varinder" print(name[0]) will print only first letter "V" of string.
   4. print(name[0:4]) will print "Vari" ii will print index-number=[0,1,2,3] not print 4 number because index=length-1.
 
@@ -132,4 +132,8 @@
    - To Replace word is present in string equal to given letter(value).   
   *syntax to write replace() function*
      print(variable_name.replace(value_want_replace,value_want_after_replace))   
-     *it will replace all words if more then 1 same words are present in string with new value*   
+     *it will replace all words if more then 1 same words are present in string with new value*  
+
+# Escape sequences characters
+  1. Characters after "\" will come know as Escape sequence character
+  *Example- \n,\t,\',\\ etc*
