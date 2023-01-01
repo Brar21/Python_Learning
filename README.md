@@ -167,5 +167,8 @@
    -- .reverse(): for sorting of list in desending order.
    -- .append(): for add someting in the end of list.
    -- .insert(): for add something on selected index value.
-   -- .pop(): to delete value from list
+   -- .pop(): to delete value from list by index number or if not give any index number then last item will be deleted.
+   -- .remove() to remove item by Value providing it.
+
+# Tuples   
 

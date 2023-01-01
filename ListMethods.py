@@ -31,3 +31,6 @@ print(a)#10 id deleted from last
 
 a.pop(2)#if you provide index number to delete item then item on that indexnumber willbe deleted
 print(a)#like on index 2 item number-3 is deleted
+
+a.remove(0) #here you provide value=0 to remove from list
+print(a)#zero is removed from list
