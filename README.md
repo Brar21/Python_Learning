@@ -160,4 +160,10 @@
      -- Answer is Yes! but not all of them
         - Len() to find length of list.
         - Slicing also can be implement in list like "[0:4]"
-        
+
+# List  Methods
+  *For more understand through examples check file "ListMethods.py"*
+   -- .Sort(): for sorting of list in assending order.
+   -- .reverse(): for sorting of list in desending order.
+   -- .append(): for add someting in the end of list.
+
