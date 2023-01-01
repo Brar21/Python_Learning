@@ -116,6 +116,9 @@
   - Find length of string using len(). "len" is nothing just short form of length.
   *syntax to write len function*
      print(len(name_of_string))   
-  - To check string endwiths given entry or not (it will return true || false)   
+  - To check string endwiths given entry or not (it will return true || false).   
   *syntax to use endswith function*
      print(string..endwith(given_value))
+  - To count how words are present in string equal to given letter(value).   
+  *syntax to write count function*
+     print(variable_name.count(value_for_count))
