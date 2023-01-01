@@ -17,3 +17,17 @@ print(name[7])
 ''' 7 is last index-number if you try to print "name[8]" you got an error 
 because index = length -1 means 8-1=7 are total index numbers present in string'''
 #print(name[8])  
+
+'''
+if you want to print half of string then you ratio in []=>[0:4]
+0 is indicate starting index and it will go less then 4 (0<4)
+means it will print till [3] index number
+'''
+
+print(name[0:4])
+
+#Print last index of following example string:
+
+string="print last index of this string"
+
+print(string[-1]) #then -1 will automatically print last index "g"

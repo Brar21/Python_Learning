@@ -99,3 +99,10 @@
   *what you need to know for use slicing?*
   1. Index -> this is given by pyhton internaly to string chracters.
   2. Length -> total words or chracters in string is Length of that string.
+  3. Example string="Varinder" print(name[0]) will print only first letter "V" of string.
+  4. print(name[0:4]) will print "Vari" ii will print index-number=[0,1,2,3] not print 4 number because index=length-1.
+
+***Can we you Negtive index number in Python?***
+   - Answer is YES!. Mostly case where you can use this is when you have to print last Index of string but you don't know the length of string.
+   1. Example= "print last index of this string"  --> you don't know the length then how print last[index]?
+   2. Simple -> print(Example[-1])
