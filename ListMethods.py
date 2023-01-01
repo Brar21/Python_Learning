@@ -15,5 +15,10 @@ print(a) #list in Assending order
 
 #Print list reverse or Dessending order
 
-a.reverse() #list start arrange from last to first
-print(a) #now List in dessending order
+#a.reverse() #list start arrange from last to first
+#print(a) #now List in dessending order
+
+
+#Append to add something in the end of list
+a.append(10) #to add 10 at the end of list
+print(a) #10 added in the end of list you can see
