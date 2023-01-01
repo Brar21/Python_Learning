@@ -26,6 +26,10 @@ means it will print till [3] index number
 
 print(name[0:4])
 
+#anther way to print
+print(name[0:]) #it will full from start to end till last[index].
+print(name[:4]) #it will start from zero if you write like " :" empty space is will take zero.
+
 #Print last index of following example string:
 
 string="print last index of this string"
