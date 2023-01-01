@@ -176,7 +176,15 @@
 # Tuples   
    *Immutable in nature->menas you can't make changes in it*
   -- Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage. A tuple is a collection which is ordered and unchangeable.
+      - Tuple types:
+   1. t=() --> Empty tuple.
+   2. t=(1,)  --> Tuple with Single element
+   *Comma is must to declare tuple with single item*  
 
   ## Can you chnage values in tuple like you don in "List"
      -- No,you got an error because you read values from tuple but cannot chnage that value.
    *for more see practical check file "Tuples.py" code*
+# Tuple Method
+  -- To count how many time same word in tuple comes.
+    *syntax for this function count()*
+    -print(tuple.name(value_for_check))
