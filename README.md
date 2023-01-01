@@ -149,3 +149,13 @@
      -- Index is always same in every case:
       - it will start from number "0".
       - It will stop at length-1 index number.
+
+   **Can change value of list**
+     -- Answer is Yes!
+     - a=[1,2,4,3]   --> for change value you index of that place where you want to change
+     - a[2]=3        --> now  "4" will change with "3" 
+     - a[3]=4        --> now  "3" will change with "4" 
+    
+   **Can string Functions can implemen in Lists?**
+     -- Answer is Yes! but not all of them
+        - Len() to find length of list.
