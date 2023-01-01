@@ -187,4 +187,9 @@
 # Tuple Method
   -- To count how many time same word in tuple comes.
     *syntax for this function count()*
-    -print(tuple.name(value_for_check))
+    - print(tuple.name(value_for_check))
+  -- To first occurence of value in tuple.
+    *syntax for this function count()*
+    - print(tuple.index(value_for_check))
+
+    
