@@ -159,3 +159,5 @@
    **Can string Functions can implemen in Lists?**
      -- Answer is Yes! but not all of them
         - Len() to find length of list.
+        - Slicing also can be implement in list like "[0:4]"
+        

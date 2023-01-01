@@ -16,3 +16,6 @@ b[1]=True
 print(b) #now all list of "bol" is "true" value
 print(len(b)) #Length can also check by len(). function
 
+#slicing in list 
+print(b[0:3])
+#print(b[0:3:2])
