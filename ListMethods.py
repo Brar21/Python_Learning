@@ -34,3 +34,24 @@ print(a)#like on index 2 item number-3 is deleted
 
 a.remove(0) #here you provide value=0 to remove from list
 print(a)#zero is removed from list
+
+#person name list
+#simple way to make list with input() function
+
+p1=input("Enter Person Name \n")
+p2=input("Enter Person Name \n")
+p3=input("Enter Person Name \n")
+p4=input("Enter Person Name \n")
+
+personList=[p1,p2,p3,p4]
+print(personList)
+ 
+ #student marks store and print in assending order
+
+student1=int(input("Enter Marks \n"))
+student2=int(input("Enter Marks \n"))
+student3=int(input("Enter Marks \n"))
+student4=int(input("Enter Marks \n"))
+marksList=[student1,student2,student3,student4] #first store by use input function
+marksList.sort()#sort in assending order by sort() function
+print(marksList)#print it
