@@ -125,3 +125,6 @@
   - To make first letter capital in string starting use Capital() function
   *syntax to write Capital() function*
      print(variable_name.capitalize()))
+   - To Find word is present in string equal to given letter(value).   
+  *syntax to write find() function*
+     print(variable_name.find(value_for_count))   

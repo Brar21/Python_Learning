@@ -42,3 +42,14 @@ print(myString.count("i"))  #3  is answer
 myCapital="varinder" # name will convert into capital letter by capital() function
 
 print(myCapital.capitalize())
+
+'''
+To Find word is present in string equal to given letter(value). 
+'''
+
+myword="How many 'a' words in this string"
+
+print(myword.find("many")) #it will tell us index number where word in present.
+#like "many" is on index number 4.
+print(myword.find("How"))
+#like "How" is on index number 0.
