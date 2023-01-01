@@ -53,3 +53,14 @@ print(myword.find("many")) #it will tell us index number where word in present.
 #like "many" is on index number 4.
 print(myword.find("How"))
 #like "How" is on index number 0.
+
+'''
+To Replace word is present in string equal to given letter(value). 
+'''
+
+myword="How many 'a' words in this string"
+
+print(myword.replace("many","too many")) #it will tell us index number where word in present.
+#like "many" is now  "too many".
+print(myword.replace("How","Here"))
+#like "How" is now "Here".

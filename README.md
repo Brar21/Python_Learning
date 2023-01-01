@@ -128,3 +128,8 @@
    - To Find word is present in string equal to given letter(value).   
   *syntax to write find() function*
      print(variable_name.find(value_for_count))   
+     *it will provide first word index if more then 1 same words are present in string*
+   - To Replace word is present in string equal to given letter(value).   
+  *syntax to write replace() function*
+     print(variable_name.replace(value_want_replace,value_want_after_replace))   
+     *it will replace all words if more then 1 same words are present in string with new value*   
