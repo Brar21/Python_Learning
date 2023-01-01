@@ -116,3 +116,6 @@
   - Find length of string using len(). "len" is nothing just short form of length.
   *syntax to write len function*
      print(len(name_of_string))   
+  - To check string endwiths given entry or not (it will return true || false)   
+  *syntax to use endswith function*
+     print(string..endwith(given_value))

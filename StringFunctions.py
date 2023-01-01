@@ -11,3 +11,15 @@ c= len(example)
 print(c)
 print(len(example)) # len() and you pass "example" as parameter in function.
 # 34 is total length including "spaces".
+
+#to check string last letters are same or not?
+'''
+To check string endwiths given entry or not
+ (it will return true || false)  
+'''
+myName="varinder"
+
+print(myName.endswith("eer")) #"eer" is value which you will compare with string that it will present in string end or not?
+#Answer is "False" because end is "der".Now change "eer" into "der"
+print(myName.endswith("der"))
+#Answer is "True" this time beacause this is present in string ends.
