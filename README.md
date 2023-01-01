@@ -169,6 +169,6 @@
    -- .insert(): for add something on selected index value.
    -- .pop(): to delete value from list by index number or if not give any index number then last item will be deleted.
    -- .remove() to remove item by Value providing it.
-
+```for more methods <a href="https://docs.python.org/3/tutorial/datastructures.html"> Link for Method List</a>```
 # Tuples   
 
