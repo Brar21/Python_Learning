@@ -170,6 +170,7 @@
    -- .pop(): to delete value from list by index number or if not give any index number then last item will be deleted.
    -- .remove() to remove item by Value providing it.
 ```for more methods```
+
  <button alignItems="center"><a href="https://docs.python.org/3/tutorial/datastructures.html"> Link for Method List</a></button>
 
 # Tuples   
