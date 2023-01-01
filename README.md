@@ -166,4 +166,5 @@
    -- .Sort(): for sorting of list in assending order.
    -- .reverse(): for sorting of list in desending order.
    -- .append(): for add someting in the end of list.
+   -- .insert(): for add something on selected index value.
 

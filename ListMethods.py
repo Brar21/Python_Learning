@@ -22,3 +22,6 @@ print(a) #list in Assending order
 #Append to add something in the end of list
 a.append(10) #to add 10 at the end of list
 print(a) #10 added in the end of list you can see
+
+a.insert(9,0) #to add 0 at 9th index number you use insert
+print(a) #0 added at 9th index and 10 move to 10th index
