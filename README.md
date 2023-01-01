@@ -111,3 +111,8 @@
    - Answer is Yes. How! you are thinking about it...let understand with following example:
    1. Example= "Varinder"  --> skip "ar" and "nd"
    2. simple print(Example[0:7:3])  --> you will get "Vie".
+
+# String functions in Python?
+  - Find length of string using len(). "len" is nothing just short form of length.
+  *syntax to write len function*
+     print(len(name_of_string))   

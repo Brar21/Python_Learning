@@ -37,4 +37,4 @@ string="print last index of this string"
 print(string[-1]) #then -1 will automatically print last index "g"
 
 Name="varinder" #skip index number you just need to provide three arguments
-print(Name[0:7:3])
+print(Name[0:7:3]) # "0" for start point "7" for till the end point and "3" is to skip chracters after print first chracter or letter o string.
