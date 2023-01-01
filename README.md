@@ -171,7 +171,7 @@
    -- .remove() to remove item by Value providing it.
 ```for more methods```
 
- <button alignItems="center"><a href="https://docs.python.org/3/tutorial/datastructures.html"> Link for Method List</a></button>
+ <button><a href="https://docs.python.org/3/tutorial/datastructures.html"> Link for Method List</a></button>
 
 # Tuples   
    *Immutable in nature->menas you can't make changes in it*
@@ -191,5 +191,8 @@
   -- To first occurence of value in tuple.
     *syntax for this function count()*
     - print(tuple.index(value_for_check))
+
+ <button><a href="https://data-flair.training/blogs/python-tuple/"> Link for Method List</a></button>
+
 
     
