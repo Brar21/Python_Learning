@@ -64,3 +64,16 @@ print(myword.replace("many","too many")) #it will tell us index number where wor
 #like "many" is now  "too many".
 print(myword.replace("How","Here"))
 #like "How" is now "Here".
+
+# to make change is big string
+courseDetails='''
+ <|NAME|> join <|COURSE|> course on <|DATE|>
+ We hope <|COURSE|> is very easy for <|NAME|>  to learn .
+ '''
+name=input("Enter Name")
+course=input("Enter Course")
+date=input("Enter Date")
+courseDetails=courseDetails.replace("<|NAME|>",name)
+courseDetails=courseDetails.replace("<|COURSE|>",course)
+courseDetails=courseDetails.replace("<|DATE|>",date)
+print(courseDetails)

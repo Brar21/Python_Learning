@@ -9,3 +9,5 @@ c=int(c)
 avrage=(b+c)/2
 print(avrage)
 
+string=input("Your Name")
+print("Good Morning, ",string)

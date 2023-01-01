@@ -137,3 +137,15 @@
 # Escape sequences characters
   1. Characters after "\" will come know as Escape sequence character
   *Example- \n,\t,\',\\ etc*
+
+## Lists and tuples in Python
+   -- List are basically set of values of any type. Any type menas it can be Strings, Boolean, Integers, Floating points etc.   
+      ***Booleans list - [true,false,true]***
+      ***Integers list - [1,2,3,45,6,8]***
+      ***Strings list - ["Phython","Java","C#","Javascript"]***
+      ***Floating points list - [0.35,1.52,35.89,1.105]***
+  
+  **List Indexing**
+     -- Index is always same in every case:
+      - it will start from number "0".
+      - It will stop at length-1 index number.
