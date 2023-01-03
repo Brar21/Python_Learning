@@ -49,3 +49,9 @@ print(type(myData.keys()))
 
 #to convert keys in list
 print(list(myData.keys())) #insted "keys" write "list" than you get keys as list
+
+
+
+#Print all value of Dictionary
+
+print(myData.values()) #now with this all values will print
