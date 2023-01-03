@@ -74,3 +74,7 @@ newItem={
     } # you can add key-value pairs as much you want
 myData.update(newItem)   #update new key-value in dictionary
 print(myData) #now you can see new entry will be there
+
+
+# .get() give value when you write key-name to get value but in case "Key-name" is not present then it show "None"
+# print(myData)
