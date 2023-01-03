@@ -243,4 +243,11 @@
        2. can you print values in list manner?
                 - Yes! very simple to check write code as show here "print(list(Dictionary.name.values()))   
     - For get in return list of (key,value) tuples
-    *print(Disctionary.name.items())*            
+    *print(Disctionary.name.items())*
+
+    - For update new key-value pair in dictionary
+    newItem={
+        "Mac-Book":"New_wish"
+    }            
+    *Dictionary.name(newitem)*
+    *print(Dictionary.name(name_of_item))*
