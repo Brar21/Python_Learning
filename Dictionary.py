@@ -26,3 +26,5 @@ myData={
     "age":27,
     "Subjects":{"name":"Hindi","marks":75,"ispass":True}
 }
+
+print(myData["Subjects"]["name"])#to inside list you have write print like this
