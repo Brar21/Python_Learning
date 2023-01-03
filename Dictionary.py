@@ -28,3 +28,5 @@ myData={
 }
 
 print(myData["Subjects"]["name"])#to inside list you have write print like this
+myData["Subjects"]["marks"]=100;
+print(myData["Subjects"]["marks"])
