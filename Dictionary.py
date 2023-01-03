@@ -15,6 +15,14 @@ print(myDict["Numbers"])#print only numbers
 #  *Data-Types you can put in Dictionary*
 #  1. Interger("int")
 #  2. Boolen ("bol")
-#  3.  String-Literal("str")
+#  3. String-Literal("str")
 #  4. List("lst")
 #  5. Dictionary("dic")  
+
+#Dictionary in Dictionary Example:
+
+myData={
+    "name":"Varinder",
+    "age":27,
+    "Subjects":{"name":"Hindi","marks":75,"ispass":True}
+}
