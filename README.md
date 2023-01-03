@@ -239,4 +239,6 @@
     this will all Value of your "Dictionary"  
        1. can check type of keys?
        - Yes! very simple to check write code as show here "print(type(Dictionary.name.values()))  
-       - type= "dict_values"         
+       - type= "dict_values"        
+       2. can you print values in list manner?
+                - Yes! very simple to check write code as show here "print(list(Dictionary.name.values()))   
