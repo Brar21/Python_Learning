@@ -75,8 +75,12 @@ newItem={
 myData.update(newItem)   #update new key-value in dictionary
 print(myData) #now you can see new entry will be there
 
-print(myData.get("name"))
+#print(myData.get("name"))
+#print(myData.get("names")) # you got None
+
 # .get() give value when you write key-name to get value but in case "Key-name" is not present then it show "None"
 
-print(myData["name"])
+#print(myData["name"])
+#print(myData["names"]) #you got error
+
 # print(myData) in this case if "Key" is not present it will show error
