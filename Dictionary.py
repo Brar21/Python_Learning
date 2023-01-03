@@ -58,3 +58,8 @@ print(myData.values()) #now with this all values will print
 
 #to check type on keys
 print(type(myData.values()))
+
+
+
+#to convert values in list
+print(list(myData.values())) #insted "values" write "list" than you get values as list
