@@ -218,3 +218,9 @@
   3.  String-Literal("str")
   4. List("lst")
   5. Dictionary("dic")   
+
+# Properties of Python Dictionaries:
+  - Unordered in manner
+  - Mutable(you can change then according your need)
+  - Indexed
+  - Duplicasy is not allowed
