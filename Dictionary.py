@@ -71,6 +71,6 @@ print(myData.items())#you get all items in form of tuple
 #update key-value pair with new entery
 newItem={
         "Mac-Book":"New_wish"
-    } 
+    } # you can add key-value pairs as much you want
 myData.update(newItem)   #update new key-value in dictionary
 print(myData) #now you can see new entry will be there
