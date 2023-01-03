@@ -202,4 +202,13 @@
   -- In simple mean you work with Javascript than you Know about "Objects". Object have "Key-value" pairs. Same in Python this known as "Dictionary".
    
    - More simplfy it than you can say "Key" is like when you search on google you write somthing in "input tag" that is key and anwser you get from in revert that is called "Value".
-   
+
+ **syntax**
+   - Examples:
+   1. dictionary={
+    "name":"Varinder",
+    "age":27,
+    "developer":True,
+    "project":[1,2,3,4,5]
+   }    #name=key
+        #Varinder=value
