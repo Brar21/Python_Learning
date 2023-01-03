@@ -44,7 +44,7 @@ print(myData["GoodInStudy"])
 print(myData.keys()) #now with this all keys will print
 
 #to check type on keys
-print(type(myData.keys))
+print(type(myData.keys()))
 
 
 #to convert keys in list
