@@ -66,3 +66,11 @@ print(list(myData.values())) #insted "values" write "list" than you get values a
 
 
 print(myData.items())#you get all items in form of tuple
+
+
+#update key-value pair with new entery
+newItem={
+        "Mac-Book":"New_wish"
+    } 
+myData.update(newItem)   #update new key-value in dictionary
+print(myData) #now you can see new entry will be there
