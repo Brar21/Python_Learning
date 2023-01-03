@@ -63,3 +63,6 @@ print(type(myData.values()))
 
 #to convert values in list
 print(list(myData.values())) #insted "values" write "list" than you get values as list
+
+
+print(myData.items())
