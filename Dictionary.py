@@ -28,8 +28,24 @@ myData={
 }
 
 print(myData["Subjects"]["name"])#to inside list you have write print like this
+
+
 myData["Subjects"]["marks"]=100; #you can value very simple manner
 print(myData["Subjects"]["marks"])
+
+
 #what if key value pairs is not present in dictionary
 myData["GoodInStudy"]=True #write key-value pair if that is not ther than it will automatically added
 print(myData["GoodInStudy"])
+
+
+
+
+print(myData.keys()) #now with this all keys will print
+
+#to check type on keys
+print(type(myData.keys))
+
+
+#to convert keys in list
+print(list(myData.keys())) #insted "keys" write "list" than you get keys as list
