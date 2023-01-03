@@ -5,4 +5,7 @@ myDict={
     "isStillworking":True,
     "Numbers":[1,23,4,56,7]
 }
-print(myDict)
+print(myDict) #print all elements of dictionary
+print(myDict["age"])#print only age
+print(myDict["work"])#print only work
+print(myDict["Numbers"])#print only numbers
