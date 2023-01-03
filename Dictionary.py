@@ -65,4 +65,4 @@ print(type(myData.values()))
 print(list(myData.values())) #insted "values" write "list" than you get values as list
 
 
-print(myData.items())
+print(myData.items())#you get all items in form of tuple
