@@ -228,4 +228,6 @@
 # Distionary Methods:
   - For print all key in list manner:
     *print(Dictionary.name.keys())*
-    this will all key of your "Dictionary"   
+    this will all key of your "Dictionary" 
+    1. can check type of keys?
+       - Yes! very simple to check write code as show here "print(type(Dictionary.name.keys()))  
