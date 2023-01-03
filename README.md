@@ -225,3 +225,7 @@
   - Indexed
   - Duplicasy is not allowed
   
+# Distionary Methods:
+  - For print all key in list manner:
+    *print(Dictionary.name.keys())*
+    this will all key of your "Dictionary"   
