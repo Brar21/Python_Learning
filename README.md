@@ -195,4 +195,11 @@
  <button><a href="https://data-flair.training/blogs/python-tuple/"> Link for Tupple More Information</a></button>
 
 
-    
+# Dictoinery and Sets in python
+
+*Dictionary mean not Oxford dictionary*
+
+  -- In simple mean you work with Javascript than you Know about "Objects". Object have "Key-value" pairs. Same in Python this known as "Dictionary".
+   
+   - More simplfy it than you can say "Key" is like when you search on google you write somthing in "input tag" that is key and anwser you get from in revert that is called "Value".
+   
