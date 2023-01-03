@@ -251,3 +251,9 @@
     }            
     *Dictionary.name(newitem)*
     *print(Dictionary.name(name_of_item))*
+
+    - For get value of key you can use ".get()" 
+    *print(Dicationary.name.get("key_name"))*
+     but you may confuse here that you can value by simply write
+     *print(Dictionary.name["key_name"])* then what is nee of ".get()" ?
+     simple reason behind this if you don't have that "value" then ".get()" will show "NONE" where simple "["key_name"] will through error because in simple ["key_value"] you have take care that key-name should be there which you written there.
