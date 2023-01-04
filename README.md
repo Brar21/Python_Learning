@@ -273,4 +273,8 @@
   - Immutable(you can't change then according your need)
   - Sets are unindexed(you can get them by index number)
   - Duplicasy is not allowed means you can't write same value more than one time.
+
+# Sets Methods
+  - ".Add()" to add element or value in sets
+  *Set.name.add(value_or_elements) is syntax using method*  
   
