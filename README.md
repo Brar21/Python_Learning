@@ -288,5 +288,7 @@
   *print(Set.name.pop()) is systax to use mehtod*
   - ".clear()" from clean that set or remove everything from Set
   *Set.name.clear() is syntax to use method*
+  - ".Union() to get all elements present in both sets
+  *is Syntax to use  method*
   - ".Intersection() to get "Same" elements present in both sets
   *is Syntax to use  method*
