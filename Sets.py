@@ -38,4 +38,7 @@ print(Empty_set)# all elements are add and "1" come only one time you see
 print(len(Empty_set)) #you get length "4" of this set
 
 
+# for "Remove" element from set use ".remove()" check below example:
 
+Empty_set.remove(3) # we remove "3" from set
+print(Empty_set) # "3" is removed from Set.
