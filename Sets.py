@@ -57,3 +57,14 @@ print(Empty_set)# left element are print
 
 Empty_set.clear() #everthing is clean in Set
 print(Empty_set) #you got "None" becasue nothing is ther to print
+
+
+#if user make enter of number but if user add duplicate than he get only unique number
+num1=int(input("Enter number"))
+num2=int(input("Enter number"))
+num3=int(input("Enter number"))
+num4=int(input("Enter number"))
+num5=int(input("Enter number"))
+
+numSet={num1,num2,num3,num4,num5}
+print(numSet)
