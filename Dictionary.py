@@ -94,4 +94,4 @@ UserEntery=input("Enter to search \n")
 #print("Your results",myData[UserEntery])
 # But if userEntery word is not in our Distionary then it will throug error but you have to tackle with error how?
 # Use ".get()" rather than "[]" syntax
-print(myData.get(UserEntery))
+print(myData.get(UserEntery)) # now if input entery is not in Dictionary than user get "None" instead of getting "error"
