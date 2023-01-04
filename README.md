@@ -265,3 +265,4 @@
 # Set in Python
   ***Set is a Collection of non-repetitve elements*** 
    - for example check first example in "Set.py" file.
+ *For more simply this You can say that "Sets" are data-types which contain only unique elements means value should be diffrent from each other*  
