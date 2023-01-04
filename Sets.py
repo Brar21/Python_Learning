@@ -42,3 +42,8 @@ print(len(Empty_set)) #you get length "4" of this set
 
 Empty_set.remove(3) # we remove "3" from set
 print(Empty_set) # "3" is removed from Set.
+
+# if Value or Element is npot presnt in set and you try to remove than it will through an error that element keyerror:(value)
+
+#Empty_set.remove(6) #error= keyerror:6 becasue 6 is not in my set
+#print(Empty_set)
