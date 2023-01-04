@@ -47,3 +47,7 @@ print(Empty_set) # "3" is removed from Set.
 
 #Empty_set.remove(6) #error= keyerror:6 becasue 6 is not in my set
 #print(Empty_set)
+
+# ".pop()" to remove first element from set
+print(Empty_set.pop())# "1" is removed from starting of set
+print(Empty_set)# left element are print
