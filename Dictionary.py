@@ -91,4 +91,7 @@ print(myData) #now you can see new entry will be there
 
 print(myData.keys())
 UserEntery=input("Enter to search \n")
-print("Your results",myData[UserEntery])
+#print("Your results",myData[UserEntery])
+# But if userEntery word is not in our Distionary then it will throug error but you have to tackle with error how?
+# Use ".get()" rather than "[]" syntax
+print(myData.get(UserEntery))
