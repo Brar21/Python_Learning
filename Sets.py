@@ -51,3 +51,9 @@ print(Empty_set) # "3" is removed from Set.
 # ".pop()" to remove first element from set
 print(Empty_set.pop())# "1" is removed from starting of set
 print(Empty_set)# left element are print
+
+
+# ".clear()" to remove everthing from set
+
+Empty_set.clear() #everthing is clean in Set
+print(Empty_set) #you got "None" becasue nothing is ther to print
