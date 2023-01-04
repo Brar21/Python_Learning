@@ -266,3 +266,11 @@
   ***Set is a Collection of non-repetitve elements*** 
    - for example check first example in "Set.py" file.
  *For more simply this You can say that "Sets" are data-types which contain only unique elements means value should be diffrent from each other*  
+
+ 
+# Properties of Python Sets:
+  - Unordered in manner
+  - Immutable(you can't change then according your need)
+  - Sets are unindexed(you can get them by index number)
+  - Duplicasy is not allowed means you can't write same value more than one time.
+  
