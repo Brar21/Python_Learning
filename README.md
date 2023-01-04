@@ -276,8 +276,11 @@
 
 # Sets Methods
   - ".Add()" to add element or value in sets
-  *Set.name.add(value_or_elements) is syntax using method*   
+  *Set.name.add(value_or_elements) is syntax to use method*   
      -- You can't same element two or more time --
      -- You can't add list or dictionary in Sets --
      -- You can only add Immutable data-type like: "tuples" --
-  
+  - "Len()" to print length of Sets
+  *print(len(Set.name)) is syntax to use methods*   
+  - ".Remove()" from remove element from Sets
+  *Set.name.remove(value_to_remove) os syntax to use method*
