@@ -284,3 +284,8 @@
   *print(len(Set.name)) is syntax to use methods*   
   - ".Remove()" from remove element from Sets
   *Set.name.remove(value_to_remove) os syntax to use method*
+  - ".pop()" remove element from set and return that element
+  *print(Set.name.pop()) is systax to use mehtod*
+
+
+  
