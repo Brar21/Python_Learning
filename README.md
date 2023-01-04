@@ -257,3 +257,6 @@
      but you may confuse here that you can value by simply write
      *print(Dictionary.name["key_name"])* then what is nee of ".get()" ?
      simple reason behind this if you don't have that "value" then ".get()" will show "NONE" where simple "["key_name"] will through error because in simple ["key_value"] you have take care that key-name should be there which you written there.
+
+
+     <a href="https://docs.python.org/3/tutorial/datastructures.html#dictionaries">More Dictionary Methods</a>
