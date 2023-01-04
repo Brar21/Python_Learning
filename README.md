@@ -260,3 +260,7 @@
 
 
      <a href="https://docs.python.org/3/tutorial/datastructures.html#dictionaries">More Dictionary Methods</a>
+
+
+# Set in Python
+  ***Set is a Collection of non-repetitve elements***
