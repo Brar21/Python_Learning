@@ -60,11 +60,11 @@ print(Empty_set) #you got "None" becasue nothing is ther to print
 
 
 #if user make enter of number but if user add duplicate than he get only unique number
-num1=int(input("Enter number"))
-num2=int(input("Enter number"))
-num3=int(input("Enter number"))
-num4=int(input("Enter number"))
-num5=int(input("Enter number"))
+num1=int(input("Enter number \n"))
+num2=int(input("Enter number \n"))
+num3=int(input("Enter number \n"))
+num4=int(input("Enter number \n"))
+num5=int(input("Enter number \n"))
 
 numSet={num1,num2,num3,num4,num5}
 print(numSet)
