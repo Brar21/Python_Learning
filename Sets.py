@@ -67,4 +67,4 @@ num4=int(input("Enter number \n"))
 num5=int(input("Enter number \n"))
 
 numSet={num1,num2,num3,num4,num5}
-print(numSet)
+print(numSet) #only uniques number will print becasue in "Sets" duplicacy s not allowed
