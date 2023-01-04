@@ -263,4 +263,5 @@
 
 
 # Set in Python
-  ***Set is a Collection of non-repetitve elements***
+  ***Set is a Collection of non-repetitve elements*** 
+   - for example check first example in "Set.py" file.
