@@ -19,3 +19,7 @@ so,this i wrong way
 
 Empty_set=set() #set is created you can check type of this 
 print(type(Empty_set)) #you can se type is class="set"
+
+#Now you can add element as below shown but can't add duplicate element rember that
+# ".add()" will help us to add value or element
+Empty_set.add
