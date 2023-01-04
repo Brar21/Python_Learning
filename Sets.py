@@ -6,3 +6,16 @@ only one  6 is printed second is ignore by default
 
 #for Print type when print(type(a)) you get "set"
 print(type(a))
+
+
+
+#Importent for create empty set
+'''a={} this will make empty Dictionary
+print(type(a)) then you get class ="dict"
+so,this i wrong way
+'''
+
+# An empty set can be created like this below syntax:
+
+Empty_set=set() #set is created you can check type of this 
+print(type(Empty_set)) #you can se type is class="set"
