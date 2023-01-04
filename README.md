@@ -286,6 +286,6 @@
   *Set.name.remove(value_to_remove) os syntax to use method*
   - ".pop()" remove element from set and return that element
   *print(Set.name.pop()) is systax to use mehtod*
+  - ".clear()" from clean that set or remove everything from Set
+  *Set.name.clear() is syntax to use method*
 
-
-  
