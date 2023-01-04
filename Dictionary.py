@@ -84,3 +84,11 @@ print(myData) #now you can see new entry will be there
 #print(myData["names"]) #you got error
 
 # print(myData) in this case if "Key" is not present it will show error
+
+
+
+# If user provide input then he get value of input example:
+
+print(myData.keys())
+UserEntery=input("Enter to search \n")
+print("Your results",myData[UserEntery])
