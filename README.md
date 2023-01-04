@@ -278,4 +278,6 @@
   - ".Add()" to add element or value in sets
   *Set.name.add(value_or_elements) is syntax using method*   
      -- You can't same element two or more time --
+     -- You can't add list or dictionary in Sets --
+     -- You can only add Immutable data-type like: "tuples" --
   
