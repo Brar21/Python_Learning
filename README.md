@@ -276,5 +276,6 @@
 
 # Sets Methods
   - ".Add()" to add element or value in sets
-  *Set.name.add(value_or_elements) is syntax using method*  
+  *Set.name.add(value_or_elements) is syntax using method*   
+     -- You can't same element two or more time --
   
