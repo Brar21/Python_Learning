@@ -33,5 +33,9 @@ Empty_set.add(4)
 
 print(Empty_set)# all elements are add and "1" come only one time you see
 
+# to print length of "Set" use "len" method as shown below:
+
+print(len(Empty_set)) #you get length "4" of this set
+
 
 
