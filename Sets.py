@@ -68,3 +68,9 @@ num5=int(input("Enter number \n"))
 
 numSet={num1,num2,num3,num4,num5}
 print(numSet) #only uniques number will print becasue in "Sets" duplicacy s not allowed
+
+# can set make use same value but one is "int" and "str"
+setNumstr={18,"18",18.0} # Answer is yes you can do like this because they diffrent types which make them unique
+print(setNumstr)
+# print length of "setNumstr" you will shock
+print(len(setNumstr)) #why 2 because 18=18.0 and if you write 18.1 then it will be 3
