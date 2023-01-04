@@ -22,4 +22,10 @@ print(type(Empty_set)) #you can se type is class="set"
 
 #Now you can add element as below shown but can't add duplicate element rember that
 # ".add()" will help us to add value or element
-Empty_set.add
+Empty_set.add(1)
+Empty_set.add(1)# i did this just for showing you that you can't add duplicate
+Empty_set.add(2)
+Empty_set.add(3)
+Empty_set.add(4)
+
+print(Empty_set)# all elements are add and "1" come only one time you see
