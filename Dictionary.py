@@ -36,6 +36,7 @@ print(myData["Subjects"]["marks"])
 
 #what if key value pairs is not present in dictionary
 myData["GoodInStudy"]=True #write key-value pair if that is not ther than it will automatically added
+# what happen if key is there already than last entry of same key-value will b shown in ou Dictionary
 print(myData["GoodInStudy"])
 
 
