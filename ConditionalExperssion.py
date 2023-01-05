@@ -45,3 +45,12 @@ if(rajuAge>=21):
     print("Yes") # condition pass than you get "Yes"
 else:
     print("No") # condition pass than you get "No"       
+
+# Logiacal operators example
+
+if(rajuAge>20 and rajuAge!=21):
+        print("Raju is younger than other")
+elif(rajuAge<=21 and rajuAge>=21):
+    print("Raju is an adult now")
+else:
+    print("Raju tu toh abhi bacha hai")            
