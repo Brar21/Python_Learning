@@ -11,3 +11,5 @@ elif(a==11):#false this condition 10 = 11 because never can be happen
      print("Equal")
 else: #if all of above condition are not pass then this will excute 
     print("No never")
+
+#you can enter as much if and else you want to add. It is call if & else leder.  
