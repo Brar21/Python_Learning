@@ -65,3 +65,11 @@ elif(sahrukh<=21 and sahrukh>=21):
     print("Sahrukh is an adult now")
 else:
     print("Sahrukh tu toh abhi bacha hai") 
+
+# IS use
+
+age=21
+if age is 21: # Is working here as "==" to check that both value are same or not
+    print("You can apply driving license") #if same than it will print this
+else :
+    print("You can't apply")        
