@@ -13,3 +13,19 @@ else: #if all of above condition are not pass then this will excute
     print("No never")
 
 #you can enter as much if and else you want to add. It is call if & else leder.  
+
+#Multiple If conditions
+
+b=1
+
+if(b>1):
+    print("Yes")
+if(b>0):
+    print("b is greater than 0")   
+if(b<2):
+    print('b is lesser than 2')    
+if(b==1):
+    print("b is equal to 1")
+
+else:
+    print("inme se kuch b nai")        
