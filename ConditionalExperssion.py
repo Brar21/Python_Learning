@@ -86,3 +86,11 @@ else:
     print("kha pe dekh rha hai tu fail hai")   #it will print this line
 
 #IN can also use with "for" loop to ittrate all elements of list
+
+
+#let take input from user
+
+num1=int(input("Enter number1 \n"))
+num2=int(input("Enter number2 \n"))
+num3=int(input("Enter number3 \n"))
+num4=int(input("Enter number4 \n"))
