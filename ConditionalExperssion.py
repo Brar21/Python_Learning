@@ -73,3 +73,7 @@ if age is 21: # Is working here as "==" to check that both value are same or not
     print("You can apply driving license") #if same than it will print this
 else :
     print("You can't apply")        #else it will print this
+
+
+#IN example for use case
+
