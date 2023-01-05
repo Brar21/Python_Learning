@@ -305,4 +305,8 @@
    - else :
    print("no")  
 
- # Relational operators  
+ # Relational operators
+   - we already dicussed this here is some examples of relational operators:
+   "==",">=","<=" etc.  
+   
+ # Logical operators   
