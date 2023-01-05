@@ -28,3 +28,12 @@ if(b==1):
     print("b is equal to 1")    #this line will print
 else:
     print("inme se kuch b nai")        
+
+
+#print true if condition pass or else print false 
+
+year=int(input("Enter date of birthdate"))
+if year>1995:
+    print("True")
+else:
+    print("False")    
