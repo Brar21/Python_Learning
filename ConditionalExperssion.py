@@ -7,7 +7,7 @@
 a=10
 if(a>11):
      print("Yes")
-elif(a==10):
+elif(a==11):
      print("Equal")
 else:
     print("No never")
