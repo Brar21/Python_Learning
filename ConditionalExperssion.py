@@ -85,4 +85,4 @@ else:
      #if not inside the list
     print("kha pe dekh rha hai tu fail hai")   #it will print this line
 
-#IN can also use with "for" loop
+#IN can also use with "for" loop to ittrate all elements of list
