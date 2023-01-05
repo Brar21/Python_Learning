@@ -303,7 +303,10 @@
    - if(condition):
    print("yes")
    - else :
-   print("no")  
+   print("no") 
+   *one more syntax you that elif which means (else if). this is used when conditions are more then two* 
+   - elif(condition):
+        print("Maybe")
 
  # Relational operators
    - we already dicussed this here is some examples of relational operators:
