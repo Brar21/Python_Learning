@@ -26,6 +26,5 @@ if(b<2):
     print('b is lesser than 2')    #this line will print
 if(b==1):
     print("b is equal to 1")    #this line will print
-
 else:
     print("inme se kuch b nai")        
