@@ -107,6 +107,6 @@ else:
     f2=num3
 
 if(f1>f2):
-        print(f1+" is greatest")
+        print(str(f1)+" is greatest")
 else:
-        print(f2+" is greatest")
+        print(str(f2)+" is greatest")
