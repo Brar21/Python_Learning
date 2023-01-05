@@ -54,3 +54,14 @@ elif(rajuAge<=21 and rajuAge>=21):
     print("Raju is an adult now")
 else:
     print("Raju tu toh abhi bacha hai")            
+
+
+# let take input from user 
+sahrukh=int(input("Enter your age \n"))    
+
+if(sahrukh>20 and sahrukh!=21):
+        print("Sahrukh is younger than other")
+elif(sahrukh<=21 and sahrukh>=21):
+    print("Sahrukh is an adult now")
+else:
+    print("Sahrukh tu toh abhi bacha hai") 
