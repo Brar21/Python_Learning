@@ -312,3 +312,6 @@
  # Logical operators   
    - logical operators operate on conditional statement example:
    "and", "or","not"
+   1. "and"  if both conditions are true than it go inside if statement.
+   2. "or" if from both condition one will be true than it will go inside the statement
+   3. "not" is use to make true into false and false into true.
