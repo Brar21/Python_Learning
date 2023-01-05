@@ -308,5 +308,7 @@
  # Relational operators
    - we already dicussed this here is some examples of relational operators:
    "==",">=","<=" etc.  
-   
+
  # Logical operators   
+   - logical operators operate on conditional statement example:
+   "and", "or","not"
