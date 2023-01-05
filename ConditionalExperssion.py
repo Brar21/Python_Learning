@@ -32,7 +32,7 @@ else:
 
 #print true if condition pass or else print false 
 
-year=int(input("Enter date of birthdate"))
+year=int(input("Enter date of birthdate \n"))
 if year>1995:
     print("True")
 else:
