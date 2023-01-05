@@ -78,7 +78,7 @@ else :
 #IN example for use case
 
 lists=[4,3,5,8,79,75,523]
-
+#IN basic doing search for you in list that number or elment is there
 if(5234 in lists):
     print("your numbers are here")
 else:
