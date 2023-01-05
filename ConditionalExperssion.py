@@ -84,3 +84,5 @@ if(5234 in lists):#if number or element is there
 else:
      #if not inside the list
     print("kha pe dekh rha hai tu fail hai")   #it will print this line
+
+#IN can also use with "for" loop
