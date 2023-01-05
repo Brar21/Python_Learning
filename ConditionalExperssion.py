@@ -79,7 +79,7 @@ else :
 
 lists=[4,3,5,8,79,75,523]
 
-if(523 in lists):
+if(5234 in lists):
     print("your numbers are here")
 else:
     print("kha pe dekh rha hai tu fail hai")    
