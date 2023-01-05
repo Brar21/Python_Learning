@@ -37,3 +37,11 @@ if year>1995:
     print("True")
 else:
     print("False")    
+
+#Relation operators example with conditional experssion
+
+rajuAge=21
+if(rajuAge>=21):
+    print("Yes") # condition pass than you get "Yes"
+else:
+    print("No") # condition pass than you get "No"       
