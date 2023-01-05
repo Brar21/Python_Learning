@@ -318,3 +318,8 @@
    1. "and"  if both conditions are true than it go inside if statement.
    2. "or" if from both condition one will be true than it will go inside the statement
    3. "not" is use to make true into false and false into true.
+
+ ## IS or IN uses
+   - you mostly gonna use if,elif or else but you should know about this things also
+     what "Is" work for?
+     what "In"  work for?
