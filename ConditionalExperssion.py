@@ -82,4 +82,5 @@ lists=[4,3,5,8,79,75,523]
 if(5234 in lists):#if number or element is there
     print("your numbers are here") #it will print this line
 else:
-    print("kha pe dekh rha hai tu fail hai")    
+     #if not inside the list
+    print("kha pe dekh rha hai tu fail hai")   
