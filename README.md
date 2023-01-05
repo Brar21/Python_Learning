@@ -298,3 +298,9 @@
   -- Conditional experssions means when have some situation or condition to full fill "If" or "else" best example of this is you can read below:
    *when are in school in 10th standard you for "Iphone" to your "Dad" and he say if you "marks" is greater then 90% than you will get it or if you score are above 80% than you will get "Samsung". If your marks above 70% than "realme" or if you get below than 60% than "Chappal"*
    *this is called Conditional Expression*
+
+  ***Syntax***
+   - if(condition):
+   print("yes")
+   - else :
+   print("no")  
