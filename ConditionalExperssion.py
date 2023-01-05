@@ -77,3 +77,4 @@ else :
 
 #IN example for use case
 
+lists=[4,3,5,8,79,75,523]
