@@ -21,7 +21,7 @@ b=1
 if(b>1):
     print("Yes")
 if(b>0):
-    print("b is greater than 0")   
+    print("b is greater than 0")  #this line will print 
 if(b<2):
     print('b is lesser than 2')    
 if(b==1):
