@@ -12,7 +12,22 @@ for i in range(5,11):
 for i in range(1,10,2):
     print(i) # after print number two number you skipping in this example
 
+#print table take "input" from user
 
+value=int(input("Enter number \n"))#user input dega table print krne k liye
+for i in range(1,11):
+    print(str(value)+"x"+str(i)+"="+str(i*value))
+    # print with f strings
+    print(f"{value}X{i}={value*1}") #cool method to print table
+
+# to find out string start with letter 'S'
+l1=["Sonia","simran","Kunal","Manpreet","SUkhi","Jalandher"]
+#count=0
+for i in l1:
+    if i.startswith("S" ):
+
+        print("Hello"+ i) 
+           
 # For loop with else condition 
 # when if condition done his work it will print
 
@@ -52,3 +67,32 @@ if result>=33:
     pass # bs mujhe kuch nai krna 33 agye mere main pass hogya bs
 else: 
     print("Fail ho aap bhai")
+
+
+
+#exercise for understand
+# Pattrn print
+#
+# #
+# # #
+
+n=3
+for i in range(4):
+    print("*"*(i+1))    #this is way to this
+
+
+#pattran     *
+#           * *
+#        * * * * *    
+
+n=5
+for i in range(5):
+    print(" "*(n-i-1),end="")
+    print("*"*(2*i+1),end="")
+    print(" "*(n-i-1))
+
+n=5
+for i in range(5):    # *
+    print(" "*(1-i-n))# **
+    print("*"*(1+i*3))# ***
+#print(" "*(1-i-n))   # ****
