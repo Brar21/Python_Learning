@@ -361,11 +361,18 @@
     3. Can we skip number according to odd/even format?
        ans. Yes, you can do this.
     4. How can we do this?
-       Ans.For clearification come in file name "RangeFunctions.py"  
+       Ans.For clearification come in file name "RangeFunctions.py".  
 
   # Else conditon with For loop -
     - this will help to now that our condition change to False. "you can asume this" example in "RangeFunction.py" file.
 
   # Break statement in Pyhton -
-    - Break is used to stop the loop on certain point or conditon. when that point is valid or condition gonna true loop will stop automaticaly. Let understand will example in file name "RangeFunctions.py" 
-                              
+    - Break is used to stop the loop on certain point or conditon. when that point is valid or condition gonna true loop will stop automaticaly. Let understand with example in file name "RangeFunctions.py". 
+
+  # Continue statement in Pyhton -    
+    - Continue will use to skip something from intration on problem .More easy way "jab hume kisi ko ignore krna ho to bus uski baat  unsunna krdo." Same we are doing this here Let understand with example in file name "RangeFunctions.py".                      
+
+  # Pass statement in Pyhton -     
+    - We mostly use "Pass" on there where if condition is pass but nothing to do with that in those cases you can use Pass.
+      *Example hume logo ko jab koi kam nai krne mood nai hota to hum kisi ki baat ka koi rply nai dete*
+      I know you need example on this and i know you where you have to check.
