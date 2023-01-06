@@ -350,4 +350,14 @@
                     print(total)          
 
 ## Range Function in Python
-   - if you wanna print sequences of numbers than this will help you how? you wanna se than come to file name "Loops.py line no.46"                    
+   - if you wanna print sequences of numbers than this will help you how? you wanna se than come to file name "Loops.py line no.46"
+    *means you can set range from where to till you want to print*
+    Question will come in your mind:
+    1. Can we choose any starting point according to our choice?
+       ans. Yes, you can do this.
+    2. Can we stop where we want to stop printing of numbers?
+       ans. Yes, with providing upto value.
+    3. Can we skip number according to odd/even format?
+       ans. Yes, you can do this.
+    4. How can we do this?
+       Ans.For clearification come in file name "RangeFunctions.py"                         
