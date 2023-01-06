@@ -323,3 +323,21 @@
    - you mostly gonna use if,elif or else but you should know about this things also
      what "Is" work for?
      what "In"  work for?
+
+# Loops in Python
+  - if you want print "Hello world" 1000 times than you will shock and start thinking like i have write code "print("hello world")" 
+    1000 times. You answer is like "bhai mujhe nai sikhni yeh "coding-voding" main chla ghr bye!" 
+
+  ***what is your reaction when i tell you that it can be done in two lines of code!!!***
+
+  -- Yes Loops gonna help us in this work --
+
+## Types of loops in Python
+   1. while loop
+   2. for loop
+
+  # While loop -
+    - Syntax of while loop is show  below:  
+
+    While condition :  #loop will until it == true#
+            #here we right body code of loop 
