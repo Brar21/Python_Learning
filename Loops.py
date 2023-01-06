@@ -41,3 +41,10 @@ for item in Table: #"item" help us to do work in one-shot
 
 for item in l1:
     print(item) #yeh kya sirf ek line k code me hogya or while mein teen line baap re! "Raju" dekh re baba kya zhol ho rha hai idder!
+
+#Range  function in Python
+
+for i in range (8):
+    print(i)   # you will get number from 0 to 7. length is total eight but counting only till seven beacause in coding it will start from 0 if you provide any start point
+# basic on range function from example come to "RangeFunction.py" file.
+#     

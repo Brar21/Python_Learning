@@ -348,3 +348,6 @@
     for ("name of initial value") in varibale or etc.
          for "total" in "table" :
                     print(total)          
+
+## Range Function in Python
+   - if you wanna print sequences of numbers than this will help you how? you wanna se than come to file name "Loops.py line no.46"                    
