@@ -341,3 +341,10 @@
 
     While condition :  #loop will until it == true#
             #here we right body code of loop 
+
+  # For loop -
+    - Syntax of while loop is show  below:
+
+    for ("name of initial value") in varibale or etc.
+         for "total" in "table" :
+                    print(total)          
