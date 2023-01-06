@@ -364,4 +364,8 @@
        Ans.For clearification come in file name "RangeFunctions.py"  
 
   # Else conditon with For loop -
-    - this will help to now that our condition change to False. "you can asume this" example in "RangeFunction.py" file.                            
+    - this will help to now that our condition change to False. "you can asume this" example in "RangeFunction.py" file.
+
+  # Break statement in Pyhton -
+    - Break is used to stop the loop on certain point or conditon. when that point is valid or condition gonna true loop will stop automaticaly. Let understand will example in file name "RangeFunctions.py" 
+                              

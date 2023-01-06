@@ -18,5 +18,19 @@ for i in range(1,10,2):
 
 for i in range(12):
     print(i)
-else:
+else: # this is known as optional "Else" your choice you want to use or not
     print("after done for loop condtion do this "+str(i+1))         
+
+# Break statement to stop loop in between when given conditon is true:
+# example:
+#for i in range(18):
+#    print(i)
+#    if i==2: #here when i value become 2 like i==2 than loop will stop there
+#        break    #you check this with run in trminal.
+
+# you can use rangeFunction in Break statement also
+#example:
+for i in range (2,18,2): 
+    print(i)
+    if i==6: # we see on only three number are print
+      break   
