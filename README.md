@@ -349,6 +349,7 @@
          for "total" in "table" :
                     print(total)          
 
+
 ## Range Function in Python
    - if you wanna print sequences of numbers than this will help you how? you wanna se than come to file name "Loops.py line no.46"
     *means you can set range from where to till you want to print*
@@ -360,4 +361,7 @@
     3. Can we skip number according to odd/even format?
        ans. Yes, you can do this.
     4. How can we do this?
-       Ans.For clearification come in file name "RangeFunctions.py"                         
+       Ans.For clearification come in file name "RangeFunctions.py"  
+
+  # Else conditon with For loop -
+    - this will help to now that our condition change to False. "you can asume this" example in "RangeFunction.py" file.                            
