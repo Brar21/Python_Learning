@@ -448,4 +448,13 @@
     print(f"Factorial of {n} in {Factorial(n)}")         
     print(Factorial(n))
   ```
-     
+  ***Recursive manner with Function but you hav to give base case when function comes to base-case than it will stop  and return a value for that case***
+  **Example**
+  ```
+   def Recursive_Factorial(n):
+        if n==1 or n==0:
+            return 1
+        return n*Recursive_Factorial(n-1)     
+    print(f"Factorial of {n} in {Recursive_Factorial(n)}  ")         
+
+  ```  
