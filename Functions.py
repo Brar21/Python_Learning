@@ -48,3 +48,12 @@ name=input("Enter Name \n")
 def sayHi(name):
     print("Hello good morning " + name)
 sayHi(name)
+
+
+# Default argument which come if you don't provide value than it will print:
+Name=input("Enter Name \n")
+def sayHii(Name="Viewers"):
+    print("Hello good morning " + Name)
+sayHii(Name)
+sayHii()#while runing this you get "Hello good morning Veiwers" because you not passing any value to it.
+

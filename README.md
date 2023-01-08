@@ -401,4 +401,23 @@
      4. len()  --> to check length of value ... to check more in-built function click below link:
      <a href="https://docs.python.org/3/library/functions.html">In-Built Functions</a>
 
-    
+     *Example of In-Built functions*
+      find pecent of students scores:
+      ```def percent(score):
+         return (sum(score)/600*100)
+         percent=percent(score)result with this function.
+         print(percent) 
+       ```  
+      - Function Arguments:
+        you can pass value in function as "argument" and function will return a value to print in your terminal as shown in upper example.
+      
+      - Default argument:
+        this will help you in two ways:
+        1. you make function where user have to put input but he/she just  simple print than they got a default value which you set while making funtions.
+        2. You can use this just simple check that functions is working or not.
+
+        **Example**
+        name=input("Enter Name \n")
+        ```def sayHi(name="Viewers):
+        print("Hello good morning " + name)
+        sayHi(name)```
