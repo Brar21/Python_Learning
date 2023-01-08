@@ -417,7 +417,8 @@
         2. You can use this just simple check that functions is working or not.
 
         **Example**
+        ```
         name=input("Enter Name \n")
-        ```def sayHi(name="Viewers):
+        def sayHi(name="Viewers):
         print("Hello good morning " + name)
         sayHi(name)```
