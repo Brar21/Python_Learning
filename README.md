@@ -423,3 +423,17 @@
         def sayHi(name="Viewers):
         print("Hello good morning " + name)
         sayHi(name)```
+
+
+# Recursion in pyhton 
+  - when function call itself that is called "Recursion". More simple way you provide a task to Function  than it will processing till answer will not come.
+
+  **Let understand will factorial Example**
+  ```
+   fact=5
+   factorial=1
+   for i in range(fact):
+     factorial=factorial*(i+1)
+   print(factorial)
+  ```
+     
