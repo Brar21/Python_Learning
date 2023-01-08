@@ -28,6 +28,12 @@ score5=[33,56,55,78,98,85]
 percent=(sum(score5)/600)*100
 #print(percent) # this will you do every time for all students
 
+#function Example:
+
+def function():
+    print("Hello function good morning")
+
+function() #call to function for print ("Hello function good morning") this is importent* step
 
 #you can reduce this code length and you work length also with functions let see Example:
 # "def" for write function and than name o funciton:
@@ -36,3 +42,9 @@ def percent(score):
     
 percent=percent(score) #in brackets just chnage value name and you will get all result with this function.
 print(percent)    #comement out all upper print to show this functino working
+
+# user name but input() in our function
+name=input("Enter Name \n")
+def sayHi(name):
+    print("Hello good morning " + name)
+sayHi(name)

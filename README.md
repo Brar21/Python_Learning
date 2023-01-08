@@ -387,4 +387,18 @@
 2. Now how we can declare a function
   - def Function_name(value):
                     return (logic)
-                    print(value)
+                    print(value).
+
+# Type of Funtions in pyhton -
+  Basically two types of function are in pyhton:
+  1. Built in function   *you get this when you install pyhton in you system*
+  2. User defined function  *which you make according to your work*
+     
+     *Example of In-Built functions*
+     1. print() --> to print our result
+     2. sum()  --> to sum our integers
+     3. range()  --> to decide range of print(result)
+     4. len()  --> to check length of value ... to check more in-built function click below link:
+     <a href="https://docs.python.org/3/library/functions.html">In-Built Functions</a>
+
+    
