@@ -403,7 +403,8 @@
 
      *Example of In-Built functions*
       find pecent of students scores:
-      ```def percent(score):
+      ```
+        def percent(score):
          return (sum(score)/600*100)
          percent=percent(score)result with this function.
          print(percent) 
