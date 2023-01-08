@@ -121,3 +121,7 @@ def spaceRemover(str):
     print(newStr) # with remove space from start and end.
     print(newStr.strip())  # strip() for remove space from start and end
 spaceRemover("   Raju come here    ")    
+n=5
+def sequre(n):
+    return pow(n, 2)
+print(sequre(n))   
