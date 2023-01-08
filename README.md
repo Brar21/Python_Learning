@@ -436,4 +436,16 @@
      factorial=factorial*(i+1)
    print(factorial)
   ```
+
+  **Now same work with Functions**
+  ```
+    n=int(input('Enter number \n'))
+    def Factorial(n):
+        start=1
+        for i in range(n):
+            start=start*(i+1)
+        return start
+    print(f"Factorial of {n} in {Factorial(n)}")         
+    print(Factorial(n))
+  ```
      
