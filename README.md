@@ -378,3 +378,13 @@
       I know you need example on this and i know you where you have to check.
 
 # Functions in Pyhton -      
+    - A function is set of statement to do specific task
+
+ *for large scale working where can't track of working of program on that place functions played very good role. Functions are reuseable in nature*
+
+ - Syntax for Functions
+1. "def" id used for telling that this is function.
+2. Now how we can declare a function
+  - def Function_name(value):
+                    return (logic)
+                    print(value)
