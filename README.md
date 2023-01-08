@@ -458,3 +458,4 @@
     print(f"Factorial of {n} in {Recursive_Factorial(n)}  ")         
 
   ```  
+  *Strip() function used for remove space from start and at end of value*

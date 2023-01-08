@@ -57,3 +57,67 @@ def sayHii(Name="Viewers"):
 sayHii(Name)
 sayHii()#while runing this you get "Hello good morning Veiwers" because you not passing any value to it.
 
+
+#find wich one in is grater:
+
+n1=int(input("number \n"))
+n2=int(input("number \n"))
+n3=int(input("number \n"))
+
+def greaterOne(n1,n2,n3):
+    if(n1>n2):
+        if (n1>n3):
+            return n1
+        else:
+            return n3
+    else:    
+          if (n2>n3):
+            return n2
+          else:
+            return n3        
+
+print(f"{greaterOne(n1,n2,n3)} is greter from all")
+
+
+
+# change temprature Cel to far
+cel=int(input("cellcious \n"))
+def farChnage(cel):
+    return (cel*(9/5))+32
+print(farChnage(cel))    
+
+# change "inches" into "cm"
+
+def incTOcm(inches):
+    return (inches*2.54,"cm")
+print(incTOcm(5))  
+
+#print all string in one line
+
+a=input("enter word \n")
+b=input("enter word \n")
+c=input("enter word \n")
+d=input("enter word \n")
+
+def singleLine(a,b,c,d):
+    print(a, end="") 
+    print (b, end="" )
+    print(c, end="") 
+    print(d, end="" "\n")
+singleLine(a,b,c,d)    
+
+
+# print star pattran using function
+
+def starPattran(n):
+    for i in range(n):
+        print( ("* " * (n-i)))
+starPattran(5)        
+
+# remove space or gap from start and end of string and Remove word from string
+
+def spaceRemover(str):
+    newStr=str.replace("come","") # replace "come" with space
+    print(newStr) # with remove space from start and end.
+    print(newStr.strip())  # strip() for remove space from start and end
+spaceRemover("   Raju come here    ")    

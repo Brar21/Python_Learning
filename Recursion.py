@@ -26,3 +26,11 @@ def Recursive_Factorial(n):
         return 1
     return n*Recursive_Factorial(n-1)     
 print(f"Factorial of {n} in {Recursive_Factorial(n)}  ")         
+
+#sum of natural numbers
+
+def Recursive_Factorial(n):
+    if n==1 or n==0:  #if n value is 1 or 0 then it will simple return 1 and stop working.
+        return 1
+    return n+Recursive_Factorial(n-1)     
+print(f"sum of {n} in {Recursive_Factorial(n)}  ")  
