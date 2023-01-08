@@ -376,3 +376,5 @@
     - We mostly use "Pass" on there where if condition is pass but nothing to do with that in those cases you can use Pass.
       *Example hume logo ko jab koi kam nai krne mood nai hota to hum kisi ki baat ka koi rply nai dete*
       I know you need example on this and i know you where you have to check.
+
+# Functions in Pyhton -      
