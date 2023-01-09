@@ -5,28 +5,28 @@ def snakewatergun(computer,player):
     if computer == player:
                 return None
     elif computer == 's':
-         if player == 'w':
+        if player == 'w':
                 return False
-         elif player =='g':
+        elif player =='g':
                 return True
     elif computer == 'w':
-         if player == 'g':
+        if player == 'g':
               return False
-         elif player == 's':
+        elif player == 's':
               return True  
     elif computer == 'g':
-         if player == 's':
+        if player == 's':
              return False
-         elif player == 'w':
+        elif player == 'w':
                 return True
 print("Computer Turn")                       
 rand = random.randint(1, 3)
 #print(rand)
-if rand==1:
+if rand == 1:
     computer="s"
-elif rand==2:
+elif rand == 2:
     computer="w" 
-if rand==3:
+if rand == 3:
     computer="g"       
 player=input("Player Turn \n")
 game=snakewatergun(computer,player)    
