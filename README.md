@@ -459,3 +459,9 @@
 
   ```  
   *Strip() function used for remove space from start and at end of value*
+
+# Another useFull topic of function -
+  1. for print Random for given range use:
+  ```
+     randon.randint(start_range, end_range)
+  ```
