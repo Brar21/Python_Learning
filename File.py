@@ -46,7 +46,8 @@ Addtext.close()#after this our file is updated you can check in that file.
 with open('mydata.txt','r') as f:
  a=f.read()
  print(a)# now need to close this function
-  #for write file with this syntax:
+ 
+#for write file with this syntax:
 
 with open('mydata.txt','a') as f:
          a=f.write("now close function tension finish")
