@@ -89,3 +89,12 @@ for i in range(3,31): #you can create as much table file you want.
     with open(f"table/table of {i}",'w') as f: #table is name of folder adn table is name of file
         for j in range(1, 11):
             f.write(f"{i}x{j}={i*j}\n")     #table files are created in "Table" folder with this simple 4 line code.
+
+# Want to change on particuler word in file
+
+with open("myInfo.txt") as f:
+    word=f.read()
+word=word.replace("Nabha","Bathinda") # fitst string is for word which you want to rplace with seconf word using ".rplace()" function
+#write in file with replacing old word
+with open('myInfo.txt','w') as f:
+    f.write(word) #word is replace with "Bathinda" new word
