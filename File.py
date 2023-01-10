@@ -125,3 +125,20 @@ with open('myInfo.txt') as f:
         if "varinder" in check.lower():
             print(i) #it tell right anwer we have "varinder" in 3rd line 
         i+=1     
+
+
+# create copy of file
+with open('myInfo.txt') as f:
+    myInfo=f.read()#read file
+with open('myInfo_copy.txt','w') as f:
+    f.write(myInfo)   #copy created with name  "myInfo_copy.txt"
+
+#now i want to rename "myInfo_copy.txt" as "myInfo2.txt"
+import os
+oldename='myInfo_copy.txt'
+newName='myInfo.txt'
+with open(oldename) as f:
+    myInfo2=f.read()
+with open(newName,'w') as f:
+    f.write(myInfo2)
+os.remove(oldename) #oldname replace with new name
