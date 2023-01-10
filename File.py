@@ -84,8 +84,8 @@ elif int(Read)<get:
 
 
 ## if you want print table file than:
-
+# to make file in differend folder you have to provide folder name first.
 for i in range(3,31): #you can create as much table file you want.
-    with open(f"table/tables of {i}",'w') as f:
+    with open(f"table/table of {i}",'w') as f: #table is name of folder adn table is name of file
         for j in range(1, 11):
             f.write(f"{i}x{j}={i*j}\n")     #table files are created in "Table" folder with this simple 4 line code.
