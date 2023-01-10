@@ -26,3 +26,15 @@ print(printLine)
 printLine=line.readline() #this print only first line of file 
 print(printLine)
 line.close()
+
+
+
+## Now How to write or create a new file using ".write()" function
+letFile= open("mydata.txt",'w') #we have  not any file with "mydata.txt" than it will create this file
+Details= letFile.write("Make this file with name mydata")
+letFile.close()
+  
+  # Now add other text in file "mydata.txt" with appending "a" i=use in ".open()" function
+Addtext=open('mydata.txt','a')
+done= Addtext.write('file is create with this we can add as much as data we want to write in this file using ".open(file_name,"a") than you can append data.')  
+Addtext.close()#after this our file is updated you can check in that file.

@@ -483,13 +483,22 @@
 
    3. Opening a File   
       - Python has "open()" function for opening file.this is built in function.
+      # Modes to open files
+        1. r --> for read file
+        2. w --> to write file
+        3. + --> to update file
+        4. a --> to appending file
+        5. rb --> to open file in binary mode
+        6. rt --> to opne file in text mode
+
+      # Read file in python-  
       1. for use this you have to pass two parameters
          **Filename** or **mode**
 
         ```
            open("file_name","command")
         ```
-        **command can be - read, write, update and delete**
+        **command can be - read, write, update and delete**    
 
        2. Functions to "read" a file
           1. ".read()" to read all content.
@@ -520,3 +529,16 @@
              print(letRead)
              file.close()
           ``` 
+        # Write file in python -
+        1. for use this use this function  syntax is:
+           ```
+             letFile= open("mydata.txt",'w') 
+             Details= letFile.write("Make this file with name mydata")
+             letFile.close()
+           ```
+        2. to append data in this file: "a" use as append command
+           ```
+               letFile= open("mydata.txt",'a') 
+               Details= letFile.write("Make this file with name mydata")
+               letFile.close()
+           ```   

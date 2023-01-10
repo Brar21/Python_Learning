@@ -1,0 +1,1 @@
+Make this file with name mydatafile is create with this we can add as much as data we want to write in this file using ".open(file_name,"a") than you can append data.
