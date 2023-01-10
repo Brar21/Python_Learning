@@ -38,3 +38,17 @@ letFile.close()
 Addtext=open('mydata.txt','a')
 done= Addtext.write('file is create with this we can add as much as data we want to write in this file using ".open(file_name,"a") than you can append data.')  
 Addtext.close()#after this our file is updated you can check in that file.
+
+
+# It is dificult to remember to close function every time
+# you can tackle this with below shown syntax:
+
+with open('mydata.txt','r') as f:
+ a=f.read()
+ print(a)# now need to close this function
+  #for write file with this syntax:
+
+with open('mydata.txt','a') as f:
+         a=f.write("now close function tension finish")
+         print(a)
+              

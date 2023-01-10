@@ -542,3 +542,18 @@
                Details= letFile.write("Make this file with name mydata")
                letFile.close()
            ```   
+
+        # Context for auto-close
+         **You can both thing read and write with this syntax**
+          1. to read file with this syntax:
+            ```
+                with open('mydata.txt','r') as f:
+                         a=f.read()
+                         print(a)
+            ```
+          2. to write file with this syntax: 
+            ```
+                with open('mydata.txt','a') as f:
+                         a=f.write()
+                         print(a)
+            ```
