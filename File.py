@@ -69,10 +69,23 @@ def score():
 get=score()
 #first fwe have to read this file
 with open('gameData.txt') as f:
-    Read=int(f.read()) # we have to take as "integer" thats why i use "int"
-if Read<get:
+    Read=(f.read()) # we have to take as "integer" thats why i use "int"
+  
+     # what is do if no score is there inside file
+if Read=="":
+    with open('gameData.txt','w') as f:
+        f.write(str(get))
+elif int(Read)<get:
     #now we have to write or append in "gameData.txt" if you score is higher only than it can be change
     with open('gameData.txt','w') as f:
         f.write(str(get)) # why str? because ".txt" can only store sting so we have to change result into string
      #now 501 will replace in file with 500
-     # but this will happen if newer value is greater than past value.   
+     # but this will happen if newer value is greater than past value.         
+
+
+## if you want print table file than:
+
+for i in range(2,21):
+    with open(f"table of {i}",'w') as f:
+        for j in range(1, 11):
+            f.write(f"{i}x{j}={i*j}\n")     #table file are create with this simple 4 line code.
