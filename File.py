@@ -98,3 +98,12 @@ word=word.replace("Nabha","Bathinda") # fitst string is for word which you want 
 #write in file with replacing old word
 with open('myInfo.txt','w') as f:
     f.write(word) #word is replace with "Bathinda" new word
+# If you want to change more than one word than use "List" with same methhod which show above:
+
+words=["Varinder singh","Punjab,India","Bathinda"]
+with open("myInfo.txt") as f:
+    word=f.read()
+for i in words:
+    word=word.replace(i,"Varinder Singh Brar")    
+with open('myInfo.txt','w') as f:
+    f.write(word)    #everything change with myname.
