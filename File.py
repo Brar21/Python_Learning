@@ -100,10 +100,28 @@ with open('myInfo.txt','w') as f:
     f.write(word) #word is replace with "Bathinda" new word
 # If you want to change more than one word than use "List" with same methhod which show above:
 
-words=["Varinder singh","Punjab,India","Bathinda"]
-with open("myInfo.txt") as f:
-    word=f.read()
-for i in words:
-    word=word.replace(i,"Varinder Singh Brar")    
-with open('myInfo.txt','w') as f:
-    f.write(word)    #everything change with myname.
+#words=["Varinder singh","Punjab,India","Bathinda"]
+#with open("myInfo.txt") as f:
+#    word=f.read()
+#for i in words:
+#    word=word.replace(i,"Varinder Singh Brar")    
+#with open('myInfo.txt','w') as f:
+#    f.write(word)    #everything change with myname.
+
+#for check word is in file or  not?
+
+with open('myInfo.txt') as f:
+    check=f.read()
+if "varinder" in check.lower():#after add ".lower()" function in end we can read this
+    print("Varinder") #nothing will come but we have word in file in capital-letter so we have to convert this in small-letters.
+
+ ###to check on which line number "varinder is present"   
+
+check=True
+i=1
+with open('myInfo.txt') as f:
+    while check: ##while loop to check full file 
+        check=f.readline()#to read line by line
+        if "varinder" in check.lower():
+            print(i) #it tell right anwer we have "varinder" in 3rd line 
+        i+=1     
