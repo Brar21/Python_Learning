@@ -490,3 +490,33 @@
            open("file_name","command")
         ```
         **command can be - read, write, update and delete**
+
+       2. Functions to "read" a file
+          1. ".read()" to read all content.
+          ```
+            data=open("file_name","r")
+            info=data.read()
+            print(info)
+            data.close()
+          ```
+          or 
+             ```
+            data=open("file_name")
+            info=data.read()
+            print(info)
+            data.close()
+            ```
+          2. ".read(value)" value for how much words you want to read
+            ```
+            data=open("file_name")
+            info=data.read(5)
+            print(info)
+            data.close()
+             ```
+          3. ".readline()" function will print every time one new line
+          ```
+             file=open("myInfo.txt")
+             letRead=file.readline()
+             print(letRead)
+             file.close()
+          ``` 
