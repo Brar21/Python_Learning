@@ -53,3 +53,26 @@ with open('mydata.txt','a') as f:
          a=f.write("now close function tension finish")
          print(a)
               
+#now use "in" with ".open()" function to check word in present in string or not?
+  
+with open('mydata.txt','r') as f:
+     a=f.read()
+     if "now" in a:
+        print(True) #we got true because in file "mydata.txt" we have "now" word.
+     else:
+        print(False)   
+
+#update "gameData.txt" if number you got higher from stored number
+
+def score():
+    return 501
+get=score()
+#first fwe have to read this file
+with open('gameData.txt') as f:
+    Read=int(f.read()) # we have to take as "integer" thats why i use "int"
+if Read<get:
+    #now we have to write or append in "gameData.txt" if you score is higher only than it can be change
+    with open('gameData.txt','w') as f:
+        f.write(str(get)) # why str? because ".txt" can only store sting so we have to change result into string
+     #now 501 will replace in file with 500
+     # but this will happen if newer value is greater than past value.   
