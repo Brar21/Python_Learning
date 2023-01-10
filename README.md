@@ -465,3 +465,28 @@
   ```
      randon.randint(start_range, end_range)
   ```
+
+
+## File I/O(Input/Output) in Python -
+   1. Let understand with basic example like you are chating with your "GF" you want to send a "Heart Imogi" if you already send it before you simply copy that and paste it again but what happen if "Heart Imogi" is not in your phone than you tried to install external package of "Imogies" that which create new File of "imogies" for your use.
+
+   ```
+   Now with Book Defination "Using input() and print() Function. A good program should effectively communicate any input in Python from the user and display a result to the outside world. A user can give a program input manually from a keyboard or use data from an external source, such as a file or a database."
+   ```
+
+   2. Typee of Files
+      - There are two types of files:
+      1. Text Files (.txt etc)
+      2. Binary Files (.jpg, .dat etc)
+      
+      **Python has lot of functions for reading, writing, updating and deleting files.**
+
+   3. Opening a File   
+      - Python has "open()" function for opening file.this is built in function.
+      1. for use this you have to pass two parameters
+         **Filename** or **mode**
+
+        ```
+           open("file_name","command")
+        ```
+        **command can be - read, write, update and delete**
