@@ -58,12 +58,13 @@ class Employee:
       print(f"salary is {self.salary} \n {signature}") # this is way how self is usefull for
 
       @staticmethod
-      def greet():
+      def greets():
         print("Woo! have a party today")
+
 varinder=Employee()
 varinder.salary="100k"
 varinder.getSalary("Thanks!") #if you not provide parameter self than you have to write as shown below
-varinder.greet()
+varinder.greets
 #Employee.getSalary(varinder)
 
 

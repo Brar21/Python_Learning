@@ -620,3 +620,15 @@
               def getSalary(self):
                         print("salary is not there)
      ```                                           
+
+    # Statix methods
+      like if you need a function where you don't want use self parameter on that place you can use static method.
+
+      ```
+         @staticmethod    --->decorater to mark greet as a static method
+            def greet():
+                print("Hello Bhai")
+      ```
+
+    # "__init__()" Constructor
+       this is a special method which is first run as soon as the object is created. this also known as constructor              
