@@ -557,3 +557,9 @@
                          a=f.write()
                          print(a)
             ```
+
+# Object oriented programing (OOPs)
+  solving s problem using object or creating a object is called object oriented programing.for reusing of code is more focuesd in this concept. that is called "DRY principle".DRY --> Don't repeat yourself.
+
+  ## Class
+     - Class is nothing judt blueprint of objects.             
