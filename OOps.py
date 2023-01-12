@@ -30,3 +30,16 @@ yourdata.study="Human Behaviour"
 yourdata.age="28"
 yourdata.bio='Simple to understand and tuff for control'       
 yourdata.info()
+
+
+
+#Example 3:
+#if we want change class attribute
+class Employee:
+            company="Google"     
+
+varinder=Employee()
+#varinder.campany
+print(varinder.company)#here compnay is google
+Employee.company="Youtube"
+print(varinder.company)#now we change this to youtube
