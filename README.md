@@ -564,9 +564,12 @@
   ## Class
      - Class is nothing judt blueprint of objects. 
   *they never take memory untill you don't usethis*            
-   1. Classname which is wrtiten in Pascal manner -->first letter is capital in Pascelcase.
+   1. Classname which is wrtiten in PascalCase manner -->first letter is capital in PascelCase.
       ```Class Students:
                #methods & variables
        ```         
-    ## Object
-       - object is an instantation of class. after object instatation memory will be allocated to class
+  ## Object
+     - object is an instantation of class. after object instatation memory will be allocated to class.
+
+# why we use OOPs or what need of this?
+  - If your website go bigger day by day than difficult to handle or make a change in code because if lines of code is more than 1000 than you have find you form code than you say with help of "ctrl+f" but actual this not gonna help you but Object Oriented Programing(OOPs) will help you through this process. when you declare a class than you can tell that this class for particuler work.
