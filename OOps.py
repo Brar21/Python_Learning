@@ -91,7 +91,7 @@ class Data:
         print(f"The value of campany is {self.valueofcompany}")        
 
 
-Brar=Data("Varinder Brar","Youngstr","Owner",1000) 
+Brar=Data("Varinder Brar","Youngstr","Owner",1000) #without passing arguments you will get error
 #Brar.name="Varinder Brar"
 #Brar.company="Youngstr"
 #Brar.role="Owner"

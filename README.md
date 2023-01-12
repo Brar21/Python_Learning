@@ -632,4 +632,24 @@
 
     # "__init__()" Constructor
        this is a special method which is first run as soon as the object is created. this also known as constructor.
-       *It takes self argument and can also take futher arguments *              
+       *It takes self argument and can also take futher arguments*
+
+       ```
+          class Data:
+        info="names"
+        def __init__(self,name,company,role,valueofcampany):
+        self.name=name
+        self.company=company
+        self.role=role
+        self.valueofcompany=valueofcampany
+        print("Name list is ready")
+
+        def details(self):
+        print(f"The name is {self.name}")
+        print(f"The company name is {self.company}")        
+        print(f"Role in campany as a {self.role}")        
+        print(f"The value of campany is {self.valueofcompany}")        
+
+
+        Brar=Data("Varinder Brar","Youngstr","Owner",1000)              
+        ```
