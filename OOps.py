@@ -49,3 +49,22 @@ print(varinder.company)#now we change this to youtube
 #print(varinder.fullname)
 print(varinder.salary)
 #if nothing in class or object than it will through an error
+
+
+#Self parameter
+class Employee:
+    company="Google"
+    def getSalary(self,signature): #it will give parameter automatically
+      print(f"salary is {self.salary} \n {signature}") # this is way how self is usefull for
+
+      @staticmethod
+      def greet():
+        print("Woo! have a party today")
+varinder=Employee()
+varinder.salary="100k"
+varinder.getSalary("Thanks!") #if you not provide parameter self than you have to write as shown below
+varinder.greet()
+#Employee.getSalary(varinder)
+
+
+## like we want to add signature

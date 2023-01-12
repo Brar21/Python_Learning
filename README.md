@@ -603,3 +603,20 @@
      ```
      **Note: Instance attributes take preference over class attributes during assognment & retrival**
      *it will check varinder is present in object?*
+
+   # Self parameter 
+     self refers to the instance of the class. It is automatically passed with a function call from an object
+
+     ```
+        varinder.getSalary()  --> here self varidner
+                        |_______ equiratent to employee.getSalary(varinder)  
+     ```
+
+     *this function get salary is defined as:*
+
+     ```
+        class Employee:
+              company="Google"
+              def getSalary(self):
+                        print("salary is not there)
+     ```                                           
