@@ -562,4 +562,11 @@
   solving s problem using object or creating a object is called object oriented programing.for reusing of code is more focuesd in this concept. that is called "DRY principle".DRY --> Don't repeat yourself.
 
   ## Class
-     - Class is nothing judt blueprint of objects.             
+     - Class is nothing judt blueprint of objects. 
+  *they never take memory untill you don't usethis*            
+   1. Classname which is wrtiten in Pascal manner -->first letter is capital in Pascelcase.
+      ```Class Students:
+               #methods & variables
+       ```         
+    ## Object
+       - object is an instantation of class. after object instatation memory will be allocated to class
