@@ -77,7 +77,23 @@ varinder.getSalary("Thanks!") #if you not provide parameter self than you have t
 
 class Data:
     info="names"
-    def __init__(self):
+    def __init__(self,name,company,role,valueofcampany):
+        self.name=name
+        self.company=company
+        self.role=role
+        self.valueofcompany=valueofcampany
         print("Name list is ready")
 
-Brar=Data()        
+    def details(self):
+        print(f"The name is {self.name}")
+        print(f"The company name is {self.company}")        
+        print(f"Role in campany as a {self.role}")        
+        print(f"The value of campany is {self.valueofcompany}")        
+
+
+Brar=Data("Varinder Brar","Youngstr","Owner",1000) 
+#Brar.name="Varinder Brar"
+#Brar.company="Youngstr"
+#Brar.role="Owner"
+#Brar.valueofcampany="1000Cr"       
+Brar.details()
