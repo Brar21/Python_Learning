@@ -17,12 +17,12 @@ print(s)
 #print form 
 
 class DataBase:
-    def info(data):
-        print(data.name)
-        print(data.place)
-        print(data.study)
-        print(data.age)
-        print(data.bio)
+    def info(self):
+        print(self.name)
+        print(self.place)
+        print(self.study)
+        print(self.age)
+        print(self.bio)
 yourdata=DataBase()
 yourdata.name="Varinder Brar"
 yourdata.place="Nabha"
@@ -48,3 +48,4 @@ Employee.company="Youtube"
 print(varinder.company)#now we change this to youtube 
 #print(varinder.fullname)
 print(varinder.salary)
+#if nothing in class or object than it will through an error
