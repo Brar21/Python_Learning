@@ -64,8 +64,20 @@ class Employee:
 varinder=Employee()
 varinder.salary="100k"
 varinder.getSalary("Thanks!") #if you not provide parameter self than you have to write as shown below
-varinder.greets
+#varinder.greets()
 #Employee.getSalary(varinder)
 
 
 ## like we want to add signature
+
+
+
+
+  # "__init__()" Constructor
+
+class Data:
+    info="names"
+    def __init__(self):
+        print("Name list is ready")
+
+Brar=Data()        

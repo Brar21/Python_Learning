@@ -631,4 +631,5 @@
       ```
 
     # "__init__()" Constructor
-       this is a special method which is first run as soon as the object is created. this also known as constructor              
+       this is a special method which is first run as soon as the object is created. this also known as constructor.
+       *It takes self argument and can also take futher arguments *              
