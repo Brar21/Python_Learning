@@ -39,7 +39,10 @@ class Employee:
             company="Google"     
 
 varinder=Employee()
+varinder.salary="75k"
+varinder.fullname="Varinder Brar"
 #varinder.campany
 print(varinder.company)#here compnay is google
 Employee.company="Youtube"
-print(varinder.company)#now we change this to youtube
+print(varinder.company)#now we change this to youtube 
+print(varinder.fullname)

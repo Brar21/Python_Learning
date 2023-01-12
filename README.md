@@ -593,3 +593,10 @@
         varinder.campany
         Employee.company="Youtube" ->[Changin class attribute]
      ```   
+   # Instance Attributes
+   - An attribute that  belongs to the instance (object).More simplyfiy this than you can say uniques things for different object:
+     Example from previous class:
+
+     ```
+       varinder.name="Varinder Brar"
+       varinder.salary="75k"      --> [Adding instance attribute]
