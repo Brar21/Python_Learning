@@ -600,3 +600,6 @@
      ```
        varinder.name="Varinder Brar"
        varinder.salary="75k"      --> [Adding instance attribute]
+     ```
+     **Note: Instance attributes take preference over class attributes during assognment & retrival**
+     *it will check varinder is present in object?*

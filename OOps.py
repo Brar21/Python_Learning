@@ -37,12 +37,14 @@ yourdata.info()
 #if we want change class attribute
 class Employee:
             company="Google"     
+            salary="100k"
 
 varinder=Employee()
-varinder.salary="75k"
-varinder.fullname="Varinder Brar"
+#varinder.salary="75k"  incase these are not presnt than it will show class attribute it in class you can see and you can make ass much you want
+#varinder.fullname="Varinder Brar"
 #varinder.campany
 print(varinder.company)#here compnay is google
 Employee.company="Youtube"
 print(varinder.company)#now we change this to youtube 
-print(varinder.fullname)
+#print(varinder.fullname)
+print(varinder.salary)
