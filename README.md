@@ -683,3 +683,6 @@
   # Explaination:
     **Single Inheritance**:
     - Single inheritance called in that situation when child or drive class inherite only from single parent or base class.
+
+    **Multiple Inheritance**
+    - Multiple inheritance occurs when the child or drive class inheritnace from more than one parent or base class.  

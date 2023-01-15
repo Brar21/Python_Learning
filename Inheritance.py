@@ -22,3 +22,4 @@ print(p.company)#than it will take from parent or Base class because in programe
 
 #Single Inheritance example is Above this line
 
+#Multiple Inheritnace
