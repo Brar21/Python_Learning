@@ -675,4 +675,5 @@
      ```
 # Type of Inheritance:
   1. Single Inheritance
-  2. Multiple Inheritanc     
+  2. Multiple Inheritance
+***You can overwrite drive class***       
