@@ -668,7 +668,7 @@
    ```
 
    # Drive Class:
-     - this class have components or parts are you take from parent class mean Base class and other custom things you can addon accordinh to your need.
+     - this class have attributes or parts are you take from parent class mean Base class and other custom things you can addon accordinh to your need.
      ***Syntax***
      ```
 
