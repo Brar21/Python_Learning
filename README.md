@@ -697,3 +697,15 @@
     **Multilevel Inheritance**
     - When a child or drive class become a perent for another child or base class.
     ***Incase attribute is present in child class than it will take from nearest parent class***
+
+# Super()
+  - Super method is used to access the methods of a super class in the drived class
+  & "Super().__init__() --> call constructor of base class.
+  
+  ```
+
+  ```
+
+# Class methods
+  - Class methods are only bound to classes not to objects of class
+  *Syntax to create class methods "@classmethod" decorator is used to do this*  
