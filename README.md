@@ -653,3 +653,23 @@
 
         Brar=Data("Varinder Brar","Youngstr","Owner",1000)              
         ```
+
+# Inheritance   
+   - Inheritance  is way to create new class from existing class or already working class. we divided this into two parts:
+   1. Base Class
+   2. Drive class
+   Explaination:
+
+   # Base Class: 
+     - In Simple words you can say that class we make first or parent class of children classses.
+     ***Syntax***    
+   ```
+
+   ```
+
+   # Drive Class:
+     - this class have components or parts are you take from parent class mean Base class and other custom things you can addon accordinh to your need.
+     ***Syntax***
+     ```
+
+     ```
