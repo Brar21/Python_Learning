@@ -664,14 +664,21 @@
      - In Simple words you can say that class we make first or parent class of children classses.
      ***Syntax***    
    ```
-
+     class Emplyoee:
+          company="JavascriptFolks"
+      
+          def showDetails(self):
+        print("Emplyoee Data")
    ```
 
    # Drive Class:
      - this class have attributes or parts are you take from parent class mean Base class and other custom things you can addon accordinh to your need.
      ***Syntax***
      ```
-
+        class Programers(Emplyoee):
+                   language="Python"
+                   def getlanguage(self):
+        print(f"this language is {self.language}")
      ```
 ***You can over-riding drive class***     
 
