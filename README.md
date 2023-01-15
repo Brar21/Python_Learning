@@ -701,7 +701,7 @@
 # Super()
   - Super method is used to access the methods of a super class in the drived class
   & "Super().__init__() --> call constructor of base class.
-  
+
   ```
 
   ```
@@ -709,3 +709,17 @@
 # Class methods
   - Class methods are only bound to classes not to objects of class
   *Syntax to create class methods "@classmethod" decorator is used to do this*  
+  ```
+     class IphonePrice:
+        company="Apple"
+        price="150k"
+        location="Calefornia"
+        @classmethod
+        def reducePrice(self,newprice):
+        self.price=new
+    main=IphonePrice()
+    print(main.price)     
+    main.reducePrice("80k")
+    print(main.price)
+    print(IphonePrice.price) 
+  ```
