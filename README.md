@@ -678,6 +678,7 @@
 # Type of Inheritance:
   1. Single Inheritance
   2. Multiple Inheritance
+  3. Multi-level Inheritnace
 
   # Explaination:
     **Single Inheritance**:
