@@ -43,3 +43,28 @@ print(p.company)
 
 #Multi-level Inheritance
  
+class FamilyTree:#parent class
+    surname="Brar"
+    def Headname(self):
+        print(f"Head of {self.name}")
+
+class TreeBranch(FamilyTree):#child class of Familytree and parent of Newfamilyhead
+    mainBranch="Parmjite kaur Brar"
+    number=5
+    def Children(self):
+        print(f"Childs in Family {self.number}")
+
+class NewFamilyHead(TreeBranch):#chlid class of Treerbanch clas
+    Headname="Gurinder Brar"
+
+    def NewFamilymembers(self):
+        print(f'{self.number-1} Family members')
+
+h=FamilyTree()
+Sh=TreeBranch()
+#Sh.number=5
+n=NewFamilyHead()
+print(n.surname)
+print(n.mainBranch)
+Sh.Children()
+n.NewFamilymembers()
