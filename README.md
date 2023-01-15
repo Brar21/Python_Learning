@@ -673,3 +673,6 @@
      ```
 
      ```
+# Type of Inheritance:
+  1. Single Inheritance
+  2. Multiple Inheritanc     
