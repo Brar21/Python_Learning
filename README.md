@@ -674,7 +674,11 @@
 
      ```
 ***You can over-riding drive class***     
-  
+
 # Type of Inheritance:
   1. Single Inheritance
   2. Multiple Inheritance
+
+  # Explaination:
+    **Single Inheritance**:
+    - Single inheritance called in that situation when child or drive class inherite only from single parent or base class.
