@@ -686,3 +686,6 @@
 
     **Multiple Inheritance**
     - Multiple inheritance occurs when the child or drive class inheritnace from more than one parent or base class.  
+
+    **Multilevel Inheritance**
+    - When a child or drive class become a perent for another child or base class.
