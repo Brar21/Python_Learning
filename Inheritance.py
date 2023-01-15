@@ -15,3 +15,6 @@ e.showDetails()
 p=Programers()
 p.showDetails()     #it will print smae details of Emplyoee class
 #because Programers claa has now details so it will take from Parent or Base class value   
+#if you print language of Programers class
+p.getlanguage()#you get "python" because language is present there
+print(p.company)#than it will take from parent or Base class because in programers class no company is there
