@@ -696,3 +696,4 @@
 
     **Multilevel Inheritance**
     - When a child or drive class become a perent for another child or base class.
+    ***Incase attribute is present in child class than it will take from nearest parent class***

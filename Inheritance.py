@@ -39,3 +39,7 @@ p=EmployeeData()
 p=IndvidualData()
 print(p.name)
 print(p.company)
+
+
+#Multi-level Inheritance
+ 
