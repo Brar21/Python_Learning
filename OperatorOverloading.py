@@ -13,11 +13,11 @@ class Number:
         return self.num-num2.num
     
     def __add__(self,num2):#this is example of dunder methods
-        print("Let add")
+        print("Let Multiply")
         return self.num*num2.num
     
     def __add__(self,num2):#this is example of dunder methods
-        print("Let add")
+        print("Let divide")
         return self.num/num2.num
 n1=Number(4)
 n2=Number(6)
