@@ -747,3 +747,10 @@
 
 # Operator overloading in Python
   - Operators can be overloaded by using dunder methods in python.Mostly these methods are called when a given operator is used on the objects.
+  ***Examples***
+  1. "__add__()" --> for add overload
+  2. "__mul__()" --> for multiply overload
+  3. "__sub__()" --> for minus overload
+  4. "__truediv__()" --> for divission overload
+ 
+  *For more overload perporties click <a href="https://docs.python.org/3/reference/datamodel.html">Here</a>
