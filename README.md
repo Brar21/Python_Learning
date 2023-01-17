@@ -723,3 +723,15 @@
     print(main.price)
     print(IphonePrice.price) 
   ```
+# @Property Decorators
+  - get output from below written exmaple you can use (data.name) to print the function value which it returns
+  *Example*
+  ```
+    class Employee:
+          @property
+           def name(self):
+           return self.name
+    data=Employee()
+    name="varinder"
+    print(data.name)   
+  ```          
