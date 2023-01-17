@@ -19,7 +19,9 @@ class Number:
     def __truediv__(self,num2):#this is example of dunder methods for divide overload
         print("Let divide")
         return self.num/num2.num 
-    
+    # str dunder method for print obj
+    def __str__(self):
+        return f"Number value is {self.num}"
 n1=Number(12)
 n2=Number(6)
 sum=n1+n2
@@ -30,6 +32,7 @@ print(sum)
 print(minus)
 print(multi)
 print(divide)
+print(n1)# you got object value with str here
 
     
         
