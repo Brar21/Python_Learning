@@ -730,8 +730,20 @@
     class Employee:
           @property
            def name(self):
-           return self.name
+           return self.Name
     data=Employee()
-    name="varinder"
+    Name="varinder"
     print(data.name)   
-  ```          
+  ```         
+
+# @getter or setter
+  - Above mention "@property_decotrstor" is called getter who get the value and with help of setter method or decorator you can define a function+@name.setter like that.
+  *Example is connected with above one*
+  ```
+    @name.setter
+     def name(self,value):
+         self.name=value
+  ```
+
+# Operator overloading in Python
+  - Operators can be overloaded by using dunder methods in python.         

@@ -1,5 +1,5 @@
 
-# @property_decorators
+# @property_decorators help you to take function as varible
 class Employee:
         Name="varinder"
         Middle="Singh"
