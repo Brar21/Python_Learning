@@ -1,9 +1,11 @@
 
-
+# @property_decorators
 class Employee:
+        Name="varinder"
+        Middle="Singh"
+        Last="Brar"
         @property
         def name(self):
-           return self.name
+           return self.Name+" "+self.Middle+" "+self.Last
 data=Employee()
-name="varinder"
-print(data.name)  
+print(data.name)  #here you get value from function write function as proporty
