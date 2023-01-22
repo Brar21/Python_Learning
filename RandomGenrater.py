@@ -16,4 +16,11 @@ while(userguess!=randomNumber):
 
 
 print(f"total guesses {guesses} time")
+
+with open("HighScore.txt","r") as f:
+    hiscore=int(f.read())
+
+if(guesses<hiscore):        
+    with open("HighScore.txt","w") as f:
+         f.write(str(guesses))
         
