@@ -752,5 +752,5 @@
   2. "__mul__()" --> for multiply overload
   3. "__sub__()" --> for minus overload
   4. "__truediv__()" --> for divission overload
- 
+ *Some questions solved with inheritance*
   *For more overload perporties click <a href="https://docs.python.org/3/reference/datamodel.html">Here</a>
